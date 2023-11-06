@@ -1,0 +1,873 @@
+@font-face {
+  font-family: Inter-Light;
+  src: url(../fonts/Inter/Inter-Light.ttf);
+}
+@font-face {
+  font-family: Inter-Regular;
+  src: url(../fonts/Inter/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-Medium;
+  src: url(../fonts/Inter/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(../fonts/Inter/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(../fonts/Inter/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: Inter-ExtraBold;
+  src: url(../fonts/Inter/Inter-ExtraBold.ttf);
+}
+@font-face {
+  font-family: QuickSand-Regular;
+  src: url(../fonts/QuickSand/Quicksand-Regular.ttf);
+}
+main {
+  background-color: #e9ecef;
+  padding-bottom: 32px;
+}
+main textarea {
+  resize: none;
+}
+main div.breadcrumb {
+  margin-bottom: 0px;
+  padding-left: 80px;
+}
+main div.breadcrumb ol.breadcrumb {
+  margin-bottom: 0px;
+}
+main .hostPost {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+main .hostPost section {
+  margin-top: 32px;
+}
+main .hostPost .stepByStep {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .hostPost .stepByStep .step {
+  padding: 9px 12px;
+  display: flex;
+}
+main .hostPost .stepByStep .step .step__serial {
+  width: 22px;
+  text-align: center;
+  font-family: Inter-SemiBold;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.175px;
+  color: #FFC803;
+  padding: 0px 4px;
+  background-color: #fff;
+  border: 1px solid #FFC803;
+  border-radius: 4px;
+}
+main .hostPost .stepByStep .step .step__name {
+  margin-left: 8px;
+  font-family: Inter-Light;
+  font-size: 14px;
+  color: #919191;
+  line-height: 22px;
+  letter-spacing: 0.175px;
+}
+main .hostPost .stepByStep .step--active {
+  color: #000;
+  background-color: #FFC803;
+  border-radius: 8px;
+}
+main .hostPost .stepByStep .step--active .step__serial {
+  color: #000;
+}
+main .hostPost .stepByStep .step--active .step__name {
+  font-family: Inter-SemiBold;
+  color: #000;
+}
+main .hostPost .title {
+  text-align: center;
+  font-family: Inter-SemiBold;
+  font-size: 32px;
+  line-height: 40px;
+}
+main .hostPost .listServices .topic {
+  font-family: Inter-SemiBold;
+  font-size: 20px;
+  line-height: 28px;
+}
+main .hostPost .listServices .services {
+  padding: 10px 12px;
+}
+main .hostPost .listServices .services .service, main .hostPost .listServices .services .type, main .hostPost .listServices .services .sleepRoom, main .hostPost .listServices .services .floor {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  font-family: Inter-Light;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.175px;
+}
+main .hostPost .listServices .services .service input, main .hostPost .listServices .services .type input, main .hostPost .listServices .services .sleepRoom input, main .hostPost .listServices .services .floor input {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  border-color: #919191;
+  border-radius: 7px;
+}
+main .hostPost .listServices .services .service input:checked, main .hostPost .listServices .services .type input:checked, main .hostPost .listServices .services .sleepRoom input:checked, main .hostPost .listServices .services .floor input:checked {
+  accent-color: #FFC803;
+}
+main .hostPost .postTitle .topic {
+  font-family: Inter-SemiBold;
+  font-size: 20px;
+  line-height: 28px;
+}
+main .hostPost .postTitle .target {
+  margin-top: 6px;
+}
+main .hostPost .postTitle .target input {
+  width: 100%;
+  border: 0.2px solid #919191;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+main .hostPost .postTitle .target input::placeholder {
+  font-family: Inter-Light;
+  font-size: 16px;
+  line-height: 24px;
+  color: #919191;
+}
+main .hostPost .totalCost .topic {
+  font-family: Inter-SemiBold;
+  font-size: 20px;
+  line-height: 28px;
+}
+main .hostPost .totalCost .target {
+  margin-top: 6px;
+}
+main .hostPost .totalCost .target input {
+  width: 100%;
+  border: 0.2px solid #919191;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+main .hostPost .totalCost .target input::placeholder {
+  font-family: Inter-Light;
+  font-size: 16px;
+  line-height: 24px;
+  color: #919191;
+}
+main .hostPost .imageHouse .topic {
+  font-family: Inter-SemiBold;
+  font-size: 20px;
+  line-height: 28px;
+}
+main .hostPost .imageHouse .btnUpload {
+  margin-top: 16px;
+}
+main .hostPost .imageHouse .btnUpload button {
+  width: 145px;
+  padding: 8px 0px;
+  font-family: Inter-SemiBold;
+  font-size: 12px;
+  color: #FFC803;
+  background: #fff;
+  border: 1px solid #FFC803;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .hostPost .imageHouse .btnUpload button i {
+  display: inline-block;
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 8px;
+}
+main .hostPost .features .topic {
+  font-family: Inter-SemiBold;
+  font-size: 20px;
+  line-height: 28px;
+}
+main .hostPost .features .item {
+  margin-top: 16px;
+  font-family: Inter-SemiBold;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+main .hostPost .features .target {
+  margin-top: 6px;
+}
+main .hostPost .features .target input {
+  width: 100%;
+  border: 0.2px solid #919191;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+main .hostPost .features .target input::placeholder {
+  font-family: Inter-Light;
+  font-size: 16px;
+  line-height: 24px;
+  color: #919191;
+}
+main .hostPost .features .button {
+  margin-top: 6px;
+  display: flex;
+}
+main .hostPost .features .button .btn__one, main .hostPost .features .button .btn__two {
+  margin-right: 16px;
+}
+main .hostPost .features .button .btn__one button, main .hostPost .features .button .btn__two button {
+  padding: 10px 12px;
+  line-height: 44px;
+  display: flex;
+  background-color: #fff;
+  border: 0.5px solid #FFC803;
+  border-radius: 8px;
+  font-family: Inter-Light;
+  color: #FFC803;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+main .hostPost .features .button .btn__one button i, main .hostPost .features .button .btn__two button i {
+  color: #000;
+  display: inline-block;
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 12px;
+}
+main .hostPost .features .button .btn__one:last-child, main .hostPost .features .button .btn__two:last-child {
+  margin-right: 0px;
+}
+main .hostPost .features .types {
+  padding: 10px 12px;
+  padding: 0 15px;
+}
+main .hostPost .features .types .service, main .hostPost .features .types .type, main .hostPost .features .types .sleepRoom, main .hostPost .features .types .floor {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  font-family: Inter-Light;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.175px;
+}
+main .hostPost .features .types .service input, main .hostPost .features .types .type input, main .hostPost .features .types .sleepRoom input, main .hostPost .features .types .floor input {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  border-color: #919191;
+  border-radius: 7px;
+}
+main .hostPost .features .types .service input:checked, main .hostPost .features .types .type input:checked, main .hostPost .features .types .sleepRoom input:checked, main .hostPost .features .types .floor input:checked {
+  accent-color: #FFC803;
+}
+main .hostPost .features .types .type {
+  margin-top: 6px;
+  padding: 10px 12px;
+}
+main .hostPost .features .error {
+  font-family: Inter-Light;
+  font-size: 14px;
+  color: #F80000;
+  line-height: 20px;
+}
+main .hostPost .features .sleepRooms .sleepRoom, main .hostPost .features .sleepRooms .floor {
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  font-family: Inter-Light;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.175px;
+}
+main .hostPost .features .sleepRooms .sleepRoom input[type=radio], main .hostPost .features .sleepRooms .floor input[type=radio] {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+main .hostPost .features .sleepRooms .sleepRoom input[type=text], main .hostPost .features .sleepRooms .floor input[type=text] {
+  margin-left: 5px;
+  width: 140px;
+  text-align: center;
+  padding: 10px 16px;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+}
+main .hostPost .features .floors .sleepRoom, main .hostPost .features .floors .floor {
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  font-family: Inter-Light;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.175px;
+}
+main .hostPost .features .floors .sleepRoom input[type=radio], main .hostPost .features .floors .floor input[type=radio] {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+main .hostPost .features .floors .sleepRoom input[type=text], main .hostPost .features .floors .floor input[type=text] {
+  margin-left: 5px;
+  width: 140px;
+  text-align: center;
+  padding: 10px 16px;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+}
+main .hostPost .features .descriptionMore textarea {
+  padding: 12px 16px;
+  margin-top: 6px;
+  width: 100%;
+  height: 200px;
+  border: 1px solid #919191;
+  border-radius: 8px;
+}
+main .hostPost .features .request textarea {
+  padding: 12px 16px;
+  margin-top: 6px;
+  width: 100%;
+  height: 100px;
+  border: 1px solid #919191;
+  border-radius: 8px;
+}
+main .hostPost .documentsAndDrawings .topic {
+  font-family: Inter-SemiBold;
+  font-size: 20px;
+  line-height: 28px;
+}
+main .hostPost .documentsAndDrawings .item {
+  margin-top: 16px;
+  font-family: Inter-SemiBold;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+main .hostPost .documentsAndDrawings .btnUpload {
+  margin-top: 16px;
+}
+main .hostPost .documentsAndDrawings .btnUpload button {
+  width: 145px;
+  padding: 8px 0px;
+  font-family: Inter-SemiBold;
+  font-size: 12px;
+  color: #FFC803;
+  background: #fff;
+  border: 1px solid #FFC803;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .hostPost .documentsAndDrawings .btnUpload button i {
+  display: inline-block;
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 8px;
+}
+main .hostPost .documentsAndDrawings .files .file {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  font-family: Inter-Light;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.175px;
+}
+main .hostPost .documentsAndDrawings .files .file input {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  border-color: #919191;
+  border-radius: 7px;
+}
+main .hostPost .documentsAndDrawings .files .file input:checked {
+  accent-color: #FFC803;
+}
+main .hostPost .time .topic {
+  font-family: Inter-SemiBold;
+  font-size: 20px;
+  line-height: 28px;
+}
+main .hostPost .time .content {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+main .hostPost .time .content .item {
+  margin-top: 16px;
+  font-family: Inter-SemiBold;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
+}
+main .hostPost .notes .topic {
+  font-family: Inter-SemiBold;
+  font-size: 20px;
+  line-height: 28px;
+}
+main .hostPost .notes .row .note textarea {
+  margin-top: 16px;
+  padding: 12px 16px;
+  border: 1px solid #919191;
+  border-radius: 8px;
+  width: 100%;
+}
+main .hostPost .notes .row .note textarea::placeholder {
+  font-family: Inter-Regular;
+  line-height: 24px;
+}
+main .hostPost .notes .note__warning {
+  margin-top: 6px;
+  font-size: 14px;
+  font-family: Inter-Regular;
+  color: #F68901;
+  line-height: 20px;
+}
+main .hostPost .btnSubmit {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+main .hostPost .btnSubmit .btnSubmit__item button {
+  background-color: #fff;
+  padding: 8px 48px;
+  border: 1px solid #FFC803;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: Inter-SemiBold;
+  line-height: 22px;
+  letter-spacing: 0.175px;
+  color: #FFC803;
+}
+main .hostPost .btnSubmit .btnSubmit--active button {
+  background-color: #FFC803;
+  color: #000;
+}
+
+@media (max-width: 740px) {
+  main {
+    padding-bottom: 0px;
+  }
+  main .breadcrumb {
+    display: none;
+  }
+  main .hostPost {
+    padding: 16px;
+  }
+  main .hostPost section {
+    margin-top: 16px;
+  }
+  main .hostPost .stepByStep {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  main .hostPost .stepByStep .step {
+    padding: 9px 8px;
+    display: flex;
+  }
+  main .hostPost .stepByStep .step .step__serial {
+    width: 22px;
+    text-align: center;
+    font-family: Inter-SemiBold;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.175px;
+    color: #FFC803;
+    padding: 0px 4px;
+    background-color: #fff;
+    border: 1px solid #FFC803;
+    border-radius: 4px;
+  }
+  main .hostPost .stepByStep .step .step__name {
+    margin-left: 4px;
+    font-family: Inter-Light;
+    font-size: 14px;
+    color: #919191;
+    line-height: 22px;
+    letter-spacing: 0.175px;
+    text-wrap: nowrap;
+  }
+  main .hostPost .stepByStep .step--active {
+    color: #000;
+    background-color: #FFC803;
+    border-radius: 8px;
+  }
+  main .hostPost .stepByStep .step--active .step__serial {
+    color: #000;
+  }
+  main .hostPost .stepByStep .step--active .step__name {
+    font-family: Inter-SemiBold;
+    color: #000;
+  }
+  main .hostPost .title {
+    display: none;
+  }
+  main .hostPost .listServices .topic {
+    font-family: Inter-SemiBold;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main .hostPost .listServices .services {
+    padding: 10px 12px;
+  }
+  main .hostPost .listServices .services .service, main .hostPost .listServices .services .type, main .hostPost .listServices .services .sleepRoom, main .hostPost .listServices .services .floor {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    font-family: Inter-Light;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.175px;
+  }
+  main .hostPost .listServices .services .service input, main .hostPost .listServices .services .type input, main .hostPost .listServices .services .sleepRoom input, main .hostPost .listServices .services .floor input {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    border-color: #919191;
+    border-radius: 7px;
+  }
+  main .hostPost .listServices .services .service input:checked, main .hostPost .listServices .services .type input:checked, main .hostPost .listServices .services .sleepRoom input:checked, main .hostPost .listServices .services .floor input:checked {
+    accent-color: #FFC803;
+  }
+  main .hostPost .listServices .services .service {
+    margin-top: 16px;
+  }
+  main .hostPost .postTitle .topic {
+    font-family: Inter-SemiBold;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main .hostPost .postTitle .target {
+    margin-top: 6px;
+  }
+  main .hostPost .postTitle .target input {
+    width: 100%;
+    border: 0.2px solid #919191;
+    border-radius: 8px;
+    padding: 12px 16px;
+  }
+  main .hostPost .postTitle .target input::placeholder {
+    font-family: Inter-Light;
+    font-size: 16px;
+    line-height: 24px;
+    color: #919191;
+  }
+  main .hostPost .totalCost .topic {
+    font-family: Inter-SemiBold;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main .hostPost .totalCost .target {
+    margin-top: 6px;
+  }
+  main .hostPost .totalCost .target input {
+    width: 100%;
+    border: 0.2px solid #919191;
+    border-radius: 8px;
+    padding: 12px 16px;
+  }
+  main .hostPost .totalCost .target input::placeholder {
+    font-family: Inter-Light;
+    font-size: 16px;
+    line-height: 24px;
+    color: #919191;
+  }
+  main .hostPost .imageHouse {
+    display: none;
+  }
+  main .hostPost .features .topic {
+    font-family: Inter-SemiBold;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main .hostPost .features .item {
+    margin-top: 16px;
+    font-family: Inter-SemiBold;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  main .hostPost .features .target {
+    margin-top: 6px;
+  }
+  main .hostPost .features .target input {
+    width: 100%;
+    border: 0.2px solid #919191;
+    border-radius: 8px;
+    padding: 12px 16px;
+  }
+  main .hostPost .features .target input::placeholder {
+    font-family: Inter-Light;
+    font-size: 16px;
+    line-height: 24px;
+    color: #919191;
+  }
+  main .hostPost .features .button {
+    display: flex;
+    flex-direction: column;
+  }
+  main .hostPost .features .button .btn__one, main .hostPost .features .button .btn__two {
+    margin-right: 0px;
+  }
+  main .hostPost .features .button .btn__one button, main .hostPost .features .button .btn__two button {
+    padding: 10px 12px;
+    line-height: 44px;
+    display: flex;
+    background-color: #fff;
+    border: 0.5px solid #FFC803;
+    border-radius: 8px;
+    font-family: Inter-Light;
+    color: #FFC803;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    width: 100%;
+    margin-top: 8px;
+  }
+  main .hostPost .features .button .btn__one button i, main .hostPost .features .button .btn__two button i {
+    color: #000;
+    display: inline-block;
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 12px;
+  }
+  main .hostPost .features .types {
+    padding: 10px 12px;
+    padding: 0 15px;
+  }
+  main .hostPost .features .types .service, main .hostPost .features .types .type, main .hostPost .features .types .sleepRoom, main .hostPost .features .types .floor {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    font-family: Inter-Light;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.175px;
+  }
+  main .hostPost .features .types .service input, main .hostPost .features .types .type input, main .hostPost .features .types .sleepRoom input, main .hostPost .features .types .floor input {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    border-color: #919191;
+    border-radius: 7px;
+  }
+  main .hostPost .features .types .service input:checked, main .hostPost .features .types .type input:checked, main .hostPost .features .types .sleepRoom input:checked, main .hostPost .features .types .floor input:checked {
+    accent-color: #FFC803;
+  }
+  main .hostPost .features .types .type {
+    margin-top: 6px;
+    padding: 10px 12px;
+  }
+  main .hostPost .features .error {
+    font-family: Inter-Light;
+    font-size: 14px;
+    color: #F80000;
+    line-height: 20px;
+  }
+  main .hostPost .features .sleepRooms .sleepRoom, main .hostPost .features .sleepRooms .floor {
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    font-family: Inter-Light;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.175px;
+  }
+  main .hostPost .features .sleepRooms .sleepRoom input[type=radio], main .hostPost .features .sleepRooms .floor input[type=radio] {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+  main .hostPost .features .sleepRooms .sleepRoom input[type=text], main .hostPost .features .sleepRooms .floor input[type=text] {
+    margin-left: 5px;
+    width: 140px;
+    text-align: center;
+    padding: 10px 16px;
+    border: 0.5px solid #919191;
+    border-radius: 8px;
+  }
+  main .hostPost .features .floors .sleepRoom, main .hostPost .features .floors .floor {
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    font-family: Inter-Light;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.175px;
+  }
+  main .hostPost .features .floors .sleepRoom input[type=radio], main .hostPost .features .floors .floor input[type=radio] {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+  }
+  main .hostPost .features .floors .sleepRoom input[type=text], main .hostPost .features .floors .floor input[type=text] {
+    margin-left: 5px;
+    width: 140px;
+    text-align: center;
+    padding: 10px 16px;
+    border: 0.5px solid #919191;
+    border-radius: 8px;
+  }
+  main .hostPost .features .descriptionMore textarea {
+    padding: 12px 16px;
+    margin-top: 6px;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #919191;
+    border-radius: 8px;
+  }
+  main .hostPost .features .request textarea {
+    padding: 12px 16px;
+    margin-top: 6px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid #919191;
+    border-radius: 8px;
+  }
+  main .hostPost .documentsAndDrawings .topic {
+    font-family: Inter-SemiBold;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main .hostPost .documentsAndDrawings .item {
+    margin-top: 16px;
+    font-family: Inter-SemiBold;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  main .hostPost .documentsAndDrawings .btnUpload {
+    margin-top: 16px;
+  }
+  main .hostPost .documentsAndDrawings .btnUpload button {
+    width: 145px;
+    padding: 8px 0px;
+    font-family: Inter-SemiBold;
+    font-size: 12px;
+    color: #FFC803;
+    background: #fff;
+    border: 1px solid #FFC803;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .hostPost .documentsAndDrawings .btnUpload button i {
+    display: inline-block;
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 8px;
+  }
+  main .hostPost .documentsAndDrawings .files .file {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    font-family: Inter-Light;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.175px;
+  }
+  main .hostPost .documentsAndDrawings .files .file input {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    border-color: #919191;
+    border-radius: 7px;
+  }
+  main .hostPost .documentsAndDrawings .files .file input:checked {
+    accent-color: #FFC803;
+  }
+  main .hostPost .time .topic {
+    font-family: Inter-SemiBold;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main .hostPost .time .content {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+  main .hostPost .time .content .item {
+    margin-top: 16px;
+    font-family: Inter-SemiBold;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  main .hostPost .time .content span {
+    display: none;
+  }
+  main .hostPost .notes .topic {
+    font-family: Inter-SemiBold;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main .hostPost .notes .row .note textarea {
+    margin-top: 16px;
+    padding: 12px 16px;
+    border: 1px solid #919191;
+    border-radius: 8px;
+    width: 100%;
+  }
+  main .hostPost .notes .row .note textarea::placeholder {
+    font-family: Inter-Regular;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  main .hostPost .notes .note__warning {
+    margin-top: 6px;
+    font-size: 14px;
+    font-family: Inter-Regular;
+    color: #F68901;
+    line-height: 20px;
+  }
+  main .hostPost .btnSubmit {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  main .hostPost .btnSubmit .btnSubmit__item button {
+    background-color: #fff;
+    padding: 8px 48px;
+    border: 1px solid #FFC803;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: Inter-SemiBold;
+    line-height: 22px;
+    letter-spacing: 0.175px;
+    color: #FFC803;
+  }
+  main .hostPost .btnSubmit .btnSubmit--active button {
+    background-color: #FFC803;
+    color: #000;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

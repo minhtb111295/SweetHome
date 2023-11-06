@@ -1,0 +1,183 @@
+@import 'color';
+@import 'fonts';
+@import 'letter-spacing';
+
+// Mixin
+@mixin button {
+    border: 0.5px solid $primary-color;
+    border-radius: 8px;
+    background-color: transparent;
+    width: 200px;
+    padding: 0.25rem 0;
+    color: $primary-color;
+    font-family: $Inter400;
+    font-size: 0.75rem;
+
+    &:hover {
+        background-color: $primary-color;
+        color: #000;
+    }
+}
+
+// Variables
+$border: 0.5px solid $secondary-color;
+
+// BREAK POINT
+
+// Desktop Screen
+main {
+    max-width: 1280px;
+    margin: auto;
+    padding: 2rem 0;
+    font-family: $Inter400;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    // ----------
+    // Inherit
+    span {
+        font-family: $Inter600;
+    }
+
+    span.low {
+        font-family: $Inter400;
+        font-size: 0.75rem;
+    }
+
+    span.highlight {
+        display: flex;
+        gap: 0.25rem;
+        align-items: center;
+        padding: 0.25rem 0.5rem;
+        background-color: #FFEF9A;
+        border-radius: 8px;
+    }
+
+    .topic {
+        font-family: $Inter600;
+        font-size: 1.75rem;
+    }
+
+    // ----------
+
+    .information {
+        .banner {
+            position: relative;
+
+            .banner {
+                width: -webkit-fill-available;
+            }
+
+            .avatar {
+                position: absolute;
+                left: 70px;
+                bottom: 0;
+                transform: translateY(50%);
+            }
+        }
+
+        .description {
+            border: $border;
+            border-top: none;
+            border-radius: 0 0 8px 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            .description__top {
+                margin-left: 14.5rem;
+                padding: 1rem 0.5rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .topic {
+                    span {
+                        display: flex;
+                        gap: 0.25rem;
+
+                        .online {
+                            width: 1rem;
+                            height: 1rem;
+                            background-color: #0F0;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+
+                .subscribe {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 0.25rem;
+
+                    button {
+                        @include button;
+                    }
+
+                    a {
+                        font-family: $Inter400;
+                        font-size: 0.75rem;
+                        text-decoration: underline;
+                        color: #4F6C00;
+                    }
+                }
+            }
+
+            .description__bottom {
+                padding: 0 1rem 1rem 1rem;
+                display: flex;
+                justify-content: space-between;
+
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+
+                    div {
+                        display: flex;
+                        gap: 0.5rem;
+
+                        .rate {
+                            i {
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .register {
+        .content {
+            padding: 1rem;
+            border: $border;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+
+            div {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+            }
+        }
+    }
+
+    .introduce {
+        .content {
+            padding: 1rem;
+            border: $border;
+            border-radius: 8px;
+        }
+    }
+}
+
+// Tablet Screen
+
+// Mobile Screen

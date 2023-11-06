@@ -1,0 +1,167 @@
+footer {
+    .footer__content {
+        padding: 50px 80px;
+        background-color: #221700;
+
+        .container-fluid {
+            padding: 0px;
+
+            .row {
+                .description {
+                    padding: 0px;
+
+                    .description__logo {
+                        width: 200px;
+                        height: 67px;
+                    }
+
+                    .description__text {
+                        margin-top: 24px;
+                        font-family: Inter-Light;
+                        color: #fff;
+                        line-height: 120%;
+                    }
+
+                    .description__post {
+                        margin-top: 24px;
+                        
+                        a {
+                            font-family: Inter-Light;
+                            color: #fff;
+                            line-height: 120%;
+                        }
+                    }
+
+                    .description__blog {
+                        margin-top: 15px;
+                        
+                        a {
+                            font-family: Inter-Light;
+                            color: #fff;
+                            line-height: 120%;
+                        }
+                    }
+                }
+
+                .rule {
+                    padding: 0px;
+
+                    @include H3andA(16px, 24px);
+                }
+
+                .contact {
+                    padding: 0px;
+
+                    @include H3andA(16px, 24px);
+                }
+
+                .support {
+                    padding: 0px;
+
+                    @include H3andA(16px, 24px);
+
+                    a {
+                        span {
+                            font-family: Inter-SemiBold;
+                            color: #2A26F8;
+                        }
+                    }
+                }
+
+                .object {
+                    padding: 0px;
+
+                    @include H3andA(16px, 24px);
+                }
+
+                .social {
+                    padding: 0px;
+
+                    @include H3andA(16px, 24px);
+
+                    .socialMedia {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer__description {
+        background-color: #000;
+        padding: 12px 80px;
+        display: flex;
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+
+        p {
+            margin: 0;
+            font-family: Inter-Light;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0.175px;
+            color: #fff;
+
+            a {
+                font-family: Inter-Light;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        .footer__content {
+            .container-fluid {
+                .row {
+                    .description {
+                        .description__logo {
+                            margin: auto;
+                        }
+                        
+                        .description__text {
+                            margin-top: 8px;
+                        }
+
+                        .description__post {
+                            margin-top: 8px;
+                        }
+
+                        .description__blog {
+                            margin-top: 8px;
+                        }
+                    }
+
+                    .rule {
+                        margin-top: 20px;
+                    }
+
+                    .contact {
+                        margin-top: 20px;
+                    }
+
+                    .support {
+                        margin-top: 20px;
+                    }
+
+                    .object {
+                        margin-top: 20px;
+                    }
+
+                    .social {
+                        margin-top: 20px;
+
+                        h3 {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

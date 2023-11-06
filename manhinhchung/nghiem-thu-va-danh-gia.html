@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Home</title>
+    <link rel="shortcut icon" href="../images/avatarSH.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/body.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/nghiem-thu-va-danh-gia.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="searchIcon" style="display: none;">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a class="navbar-brand" href="#">
+                <img src="../images/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../chunha/trang-chu-chu-nha.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../nhathau/trang-chu-nha-thau.html">Nhà thầu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../manhinhchung/trang-chu-man-hinh-chung.html">Về chúng tôi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../nhathau/bang-khoi-luong.html">Trợ giúp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog Kiến thức</a>
+                    </li>
+                    <li class="nav-item itemMobile" style="display: none;">
+                        <a class="nav-link" href="#">
+                            <a href="../manhinhchung/dang-nhap.html">Đăng nhập</a>
+                            /
+                            <a href="../manhinhchung/dang-ky.html">Đăng ký</a>
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 mr-0">
+                    <div class="search">
+                        <div class="search__text">
+                            Tìm kiếm
+                        </div>
+                        <div class="search__icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="more__icon">
+                            <i class="fa-regular fa-bell"></i>
+                            <span>3</span>
+                        </div>
+                        <div class="more__icon">
+                            <i class="fa-regular fa-envelope"></i>
+                            <span>3</span>
+                        </div>
+                        <div class="more__icon">
+                            <a href="../manhinhchung/dang-nhap.html"><i class="fa-solid fa-person"></i></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- Over View -->
+        <section class="overView">
+            <img src="../images/nghiem-thu-va-danh-gia-image.png" alt="Overview Image">
+
+            <div class="content__description">
+                <div class="name">
+                    Căn hộ chung cư
+                    <img src="../images/verified-user.png" alt="">
+                </div>
+
+                <div class="step">
+                    <span>Khảo sát 2D<i class="fa-solid fa-check"></i></span>
+                    <span>Concept - 3D<i class="fa-solid fa-check"></i></span>
+                    <span>Thiết kế thi công<i class="fa-solid fa-check"></i></span>
+                    <span>Giám sát<i class="fa-solid fa-check"></i></span>
+                    <span class="active">Thi công<i class="fa-solid fa-spinner"></i></span>
+                </div>
+
+                <div class="address">
+                    Địa điểm: <span>Chung cư River, phường 11, quận 2, Tp Hồ Chí Minh</span>
+                </div>
+
+                <div class="description">
+                    <div class="round">
+                        Quy mô: <span>100m2</span>
+                    </div>
+                    <div class="price">
+                        Tổng đầu tư: <span>1 tỷ</span>
+                    </div>
+                    <div class="option">
+                        Các gói thầu còn lại: <span>400 triệu</span>
+                    </div>
+                </div>
+
+                <div class="author">
+                    <span>Bên chủ nhà/mời thầu: Nguyễn Hồng Đức</span>
+                    <span>17km</span>
+                    <span>Đăng tin 1 giờ trước</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Step by Step -->
+        <section class="stepByStep">
+            <div class="step">
+                <div class="step__serial">1</div>
+                <div class="step__name">Đăng bài</div>
+            </div>
+            <i class="fa-solid fa-arrow-right"></i>
+            <div class="step">
+                <div class="step__serial">2</div>
+                <div class="step__name">Lựa chọn nhà thầu</div>
+            </div>
+            <i class="fa-solid fa-arrow-right"></i>
+            <div class="step">
+                <div class="step__serial">3</div>
+                <div class="step__name">Ký hợp đồng</div>
+            </div>
+            <i class="fa-solid fa-arrow-right"></i>
+            <div class="step">
+                <div class="step__serial">4</div>
+                <div class="step__name">Đặt cọc</div>
+            </div>
+            <i class="fa-solid fa-arrow-right"></i>
+            <div class="step">
+                <div class="step__serial">5</div>
+                <div class="step__name">Theo dõi tiến độ</div>
+            </div>
+            <i class="fa-solid fa-arrow-right"></i>
+            <div class="step step--active">
+                <div class="step__serial">6</div>
+                <div class="step__name">Nghiệm thu và đánh giá</div>
+            </div>
+        </section>
+
+        <!-- Title -->
+        <section class="title">
+            <h3>Nghiệm thu và đánh giá</h3>
+        </section>
+
+        <!-- List Company -->
+        <section class="list">
+
+            <div class="list__topic">
+                Danh sách nhà thầu - Công việc đã hoàn thành
+            </div>
+
+            <!-- List 1 -->
+            <div class="list__company">
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-1.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-1.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-1.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-1.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-1.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-1.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-1.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-1.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- List 2 -->
+            <div class="list__company">
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-2.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-2.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-2.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-2.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-2.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-2.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-2.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company">
+                    <div class="company__top">
+                        <img class="logo" src="../images/avatar-company-2.png" alt="">
+                        <div class="description">
+                            <div class="name">
+                                Nhà thầu A
+                                <img src="../images/verified-user.png" alt="">
+                            </div>
+                            <div class="price-text">
+                                <span>Giá chào thầu:</span>
+                            </div>
+                            <div class="price-number">
+                                240 Triệu
+                            </div>
+                        </div>
+                    </div>
+                    <div class="company__middle">
+                        <span>Chọn xem</span>
+                        <span>Số đánh giá:</span>
+                        15
+                    </div>
+                    <div class="company__bottom">
+                        <input type="checkbox">
+                        5
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Result -->
+        <section class="result container">
+
+            <div class="title">Đánh giá dành cho</div>
+
+            <div class="company">
+                <img class="logo" src="../images/avatar-company-1.png" alt="">
+                <div class="description">
+                    <div class="name">
+                        Nhà thầu A
+                        <img src="../images/verified-user.png" alt="">
+                    </div>
+                    <div class="price">
+                        Giá chào thầu: <span>240 Triệu</span>
+                    </div>
+                    <div class="score">
+                        <span>5</span>
+                        <div class="rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nameJob">
+                Gói thầu Bếp
+            </div>
+
+            <div class="time">
+                <div class="start">
+                    Ngày bắt đầu:
+                    <span>08/7/2023</span>
+                </div>
+                <div class="end">
+                    <div class="yummy">
+                        Ngày kết thúc dự kiến:
+                        <span>18/12/2023</span>
+                    </div>
+                    <div class="real">
+                        Ngày kết thúc thực tế:
+                        <span>17/12/2023</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="confirm">
+                <div class="confirm__top">
+                    Xác nhận nghiệm thu
+                </div>
+                <div class="confirm__middle">
+                    <button class="button--deny">
+                        <i class="fa-solid fa-xmark"></i>
+                        Không nghiệm thu <br>
+                        yêu cầu chỉnh sửa
+                    </button>
+                    <button class="button--success">
+                        <i class="fa-solid fa-check"></i>
+                        Đồng ý đã nghiệm thu
+                    </button>
+                </div>
+                <div class="confirm__bottom">
+                    <div class="opinion">
+                        <textarea name="" id="" cols="40" rows="5" placeholder="Nhập nội dung ý kiến..."></textarea>
+                    </div>
+                    <div class="evaluate">
+                        <span>Đánh giá</span>
+                        <div class="rate">
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer__content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 description">
+                        <div class="description__logo">
+                            <img src="../images/logo.png" alt="Logo">
+                        </div>
+                        <div class="description__text">
+                            Sweet home thành lập với sứ mệnh kết nối chủ nhà với các nhà thầu tin cậy. Những ngôi nhà
+                            được hoàn thiện như ý bạn là niềm tự hào của chúng tôi.
+                        </div>
+                        <div class="description__post">
+                            <a href="#">Bài viết</a>
+                        </div>
+                        <div class="description__blog">
+                            <a href="#">Blogs</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 rule">
+                        <h3>Quy định - điều khoản</h3>
+                        <a href="#">Giới thiệu công ty</a>
+                        <a href="#">Chính sách bảo mật</a>
+                        <a href="#">Hình thức thanh toán</a>
+                        <a href="#">Tuyển dụng</a>
+                        <a href="#">Điều khoản</a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 contact">
+                        <h3>Liên hệ</h3>
+                        <a href="#">Hỗ trợ - Trợ giúp</a>
+                        <a href="#">Góp ý khiếu nại</a>
+                        <a href="#">Câu hỏi thường gặp</a>
+                        <a href="#">Thông báo lỗi</a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 support">
+                        <h3>Tổng đài hỗ trợ ( Miễn phí)</h3>
+                        <a href="#">Tư vấn khách hàng: <br><span>00000000</span></a>
+                        <a href="#">Tư vấn nhà thầu: <br><span>00000000</span></a>
+                        <a href="#">Khiếu nại: <br><span>00000000</span></a>
+                        <a href="#">Bảo hành: <br><span>00000000</span></a>
+                    </div>
+
+                    <div class="col-lg-1 col-md-4 col-sm-6 col-6 object">
+                        <h3>Nhà thầu</h3>
+                        <a href="#">Công ty</a>
+                        <a href="#">Tổ đội</a>
+                        <a href="#">Kiến trúc sư</a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 social">
+                        <h3>Theo dõi chúng tôi</h3>
+                        <div class="socialMedia">
+                            <div class="social__item">
+                                <img src="../images/zalo.png" alt="Zalo">
+                            </div>
+                            <div class="social__item">
+                                <img src="../images/facebook.png" alt="Facebook">
+                            </div>
+                            <div class="social__item">
+                                <img src="../images/youtube.png" alt="Youtube">
+                            </div>
+                            <div class="social__item">
+                                <img src="../images/tiktok.png" alt="Tiktok">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__description">
+            <img src="../images/copyright.png" alt="Coppy Right">
+            <p>Công ty cổ phần Sweet home. GPDKKD:00000 do sở KH & ĐT TP.HCM cấp từ ngày 00/00/2023. GPMXH: 00/00/000 do
+                Bộ Thông Tin và Truyền Thông cấp ngày 00/00/2023. Địa chỉ: ....................., TP.HCM. ĐỊa chỉ liên
+                hệ và gửi chứng từ..............Điện thoại:00000000. Email: Sweethome@gmail.com.
+                <a href="#">Xem chính sách sử dụng.</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="../assets/popper.min.js"></script>
+    <script src="../assets/jquery.min.js"></script>
+    <script src="../assets/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

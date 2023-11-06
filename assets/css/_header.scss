@@ -1,0 +1,160 @@
+header {
+    max-width: 1280px;
+    margin: auto;
+    color: #000;
+
+    .navbar {
+        padding: 0;
+        background-color: #fff!important;
+
+        .navbar-collapse {
+            .navbar-nav {
+                .nav-item {
+                    padding: 26px 12px;
+
+                    a {
+                        font-family: Inter-SemiBold;
+                        color: #000;
+                        letter-spacing: 0.5px;
+                        line-height: 24px;
+                        padding: 0;
+                    }
+                }
+            }
+
+            .form-inline {
+                margin-left: 94px;
+
+                .search {
+                    padding: 8px 12px;
+                    border: 1px solid #919191;
+                    border-radius: 8px;
+                    display: flex;
+                    align-items: center;
+                    color: #919191;
+
+                    .search__text {
+                        width: 118px;
+                        display: flex;
+                        justify-content: center;
+                        font-family: Inter-SemiBold;
+                        line-height: 22px;
+                        letter-spacing: 0.175px;
+                    }
+
+                    .search__icon {
+                        width: 24px;
+                        text-align: center;
+                        line-height: 24px;
+                    }
+                }
+
+                .more {
+                    width: 208px;
+                    margin-left: 24px;
+                    border: 1px solid #FFC803;
+                    border-radius: 8px;
+                    display: flex;
+                    justify-content: space-evenly;
+
+                    .more__icon {
+                        height: 40px;
+                        padding: 9px;
+                        position: relative;
+
+                        i {
+                            width: 24px;
+                            text-align: center;
+                            line-height: 24px;
+                        }
+
+                        span {
+                            position: absolute;
+                            display: inline-block;
+                            width: 16px;
+                            text-align: center;
+                            line-height: 16px;
+                            background-color: red;
+                            border-radius: 50%;
+                            color: #fff;
+                            font-size: 11px;
+                            top: 3px;
+                            right: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// BREAK POINT 
+// Tablet Screen 
+@media (min-width: 741px) and (max-width: 1024px) {
+    header {
+        .navbar {
+            .navbar-collapse {
+                .navbar-nav {
+                    .nav-item {
+                        padding: 6px;
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+                    .itemMobile {
+                        display: block!important;
+                    }
+                }
+        
+                form {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 740px) {
+    header {
+        .navbar {
+            padding: 8px 16px;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+
+            .navbar-collapse {
+                .navbar-nav {
+                    .nav-item {
+                        padding: 8px 12px;
+
+                        a {
+                            font-family: Inter-SemiBold;
+                            font-size: 14px;
+                            line-height: 22px;
+                            letter-spacing: 0.175px;
+
+                            &:hover {
+                                color: #FFC803;
+                            }
+                        }
+                    }
+
+                    .itemMobile {
+                        display: block!important;
+                    }
+                }
+        
+                form {
+                    display: none;
+                }
+            }
+
+            .searchIcon {
+                width: 24px;
+                text-align: center;
+                line-height: 24px;
+                display: block!important;
+            }
+        }
+    }
+}

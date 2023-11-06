@@ -1,0 +1,129 @@
+main {
+  max-width: 1280px;
+  margin: auto;
+  padding: 2rem 0;
+  font-family: Inter-Light;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+main span {
+  font-family: Inter-SemiBold;
+}
+main span.low {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+}
+main span.highlight {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  background-color: #FFEF9A;
+  border-radius: 8px;
+}
+main .topic {
+  font-family: Inter-SemiBold;
+  font-size: 1.75rem;
+}
+main .information .banner {
+  position: relative;
+}
+main .information .banner .banner {
+  width: -webkit-fill-available;
+}
+main .information .banner .avatar {
+  position: absolute;
+  left: 70px;
+  bottom: 0;
+  transform: translateY(50%);
+}
+main .information .description {
+  border: 0.5px solid #919191;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .information .description .description__top {
+  margin-left: 14.5rem;
+  padding: 1rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .information .description .description__top .topic span {
+  display: flex;
+  gap: 0.25rem;
+}
+main .information .description .description__top .topic span .online {
+  width: 1rem;
+  height: 1rem;
+  background-color: #0F0;
+  border-radius: 50%;
+}
+main .information .description .description__top .subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+main .information .description .description__top .subscribe button {
+  border: 0.5px solid #FFC803;
+  border-radius: 8px;
+  background-color: transparent;
+  width: 200px;
+  padding: 0.25rem 0;
+  color: #FFC803;
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+}
+main .information .description .description__top .subscribe button:hover {
+  background-color: #FFC803;
+  color: #000;
+}
+main .information .description .description__top .subscribe a {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  text-decoration: underline;
+  color: #4F6C00;
+}
+main .information .description .description__bottom {
+  padding: 0 1rem 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+main .information .description .description__bottom .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .information .description .description__bottom .content div {
+  display: flex;
+  gap: 0.5rem;
+}
+main .information .description .description__bottom .content div .rate i {
+  color: #FFC803;
+}
+main .register .content {
+  padding: 1rem;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+main .register .content div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+main .introduce .content {
+  padding: 1rem;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+}
+
+/*# sourceMappingURL=ho-so-nha-thau.css.map */

@@ -1,0 +1,124 @@
+header {
+  max-width: 1280px;
+  margin: auto;
+  color: #000;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30);
+}
+header .navbar {
+  padding: 0;
+  background-color: #fff !important;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-item {
+  padding: 26px 12px;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-item a {
+  font-family: Inter-SemiBold;
+  color: #000;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  padding: 0;
+}
+header .navbar .navbar-collapse .form-inline {
+  margin-left: 94px;
+}
+header .navbar .navbar-collapse .form-inline .search {
+  padding: 8px 12px;
+  border: 1px solid #919191;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  color: #919191;
+}
+header .navbar .navbar-collapse .form-inline .search .search__text {
+  width: 118px;
+  display: flex;
+  justify-content: center;
+  font-family: Inter-SemiBold;
+  line-height: 22px;
+  letter-spacing: 0.175px;
+}
+header .navbar .navbar-collapse .form-inline .search .search__icon {
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+header .navbar .navbar-collapse .form-inline .more {
+  width: 208px;
+  margin-left: 24px;
+  border: 1px solid #FFC803;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+header .navbar .navbar-collapse .form-inline .more .more__icon {
+  height: 40px;
+  padding: 9px;
+  position: relative;
+}
+header .navbar .navbar-collapse .form-inline .more .more__icon i {
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+header .navbar .navbar-collapse .form-inline .more .more__icon span {
+  position: absolute;
+  display: inline-block;
+  width: 16px;
+  text-align: center;
+  line-height: 16px;
+  background-color: red;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 11px;
+  top: 3px;
+  right: 3px;
+}
+
+@media (min-width: 741px) and (max-width: 1024px) {
+  header .navbar .navbar-collapse .navbar-nav .nav-item {
+    padding: 6px;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item a {
+    font-size: 12px;
+  }
+  header .navbar .navbar-collapse .navbar-nav .itemMobile {
+    display: block !important;
+  }
+  header .navbar .navbar-collapse form {
+    display: none;
+  }
+}
+@media (max-width: 740px) {
+  header .navbar {
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item {
+    padding: 8px 12px;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item a {
+    font-family: Inter-SemiBold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.175px;
+  }
+  header .navbar .navbar-collapse .navbar-nav .nav-item a:hover {
+    color: #FFC803;
+  }
+  header .navbar .navbar-collapse .navbar-nav .itemMobile {
+    display: block !important;
+  }
+  header .navbar .navbar-collapse form {
+    display: none;
+  }
+  header .navbar .searchIcon {
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    display: block !important;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

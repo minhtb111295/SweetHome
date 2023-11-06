@@ -1,0 +1,19 @@
+// Finished House
+.finishedProduct {
+    margin-top: 100px;
+    background-image: url(../images/finished-product.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 570px;
+}
+
+@media (max-width: 768px) {
+    // Finished Product
+    .finishedProduct {
+        margin-top: 16px;
+        background-image: url(../images/finished-product-mobile.png);
+        height: 450px;
+    }
+}

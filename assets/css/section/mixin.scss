@@ -1,0 +1,43 @@
+@mixin buttonStyle {
+    border: none;
+    font-family: Inter-SemiBold;
+    font-size: 14px;
+    letter-spacing: 0.175px;
+    line-height: 22px;
+    width: 250px;
+    background-color: #FFC803;
+    padding: 8px 24px;
+    border-radius: 40px;
+
+    i {
+        display: inline-block;
+        margin-right: 8px;
+    }
+}
+
+@mixin H3andA($mbt, $mt) {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        font-family: Inter-Bold;
+        font-size: 16px;
+        line-height: 120%;
+        color: #fff;
+    }
+
+    a {
+        font-family: Inter-Light;
+        line-height: 120%;
+        color: #fff;
+        margin-bottom: $mbt;
+
+        &:first-of-type {
+            margin-top: $mt;
+        }
+
+        &:last-of-type {
+            margin-bottom: 0px;
+        }
+    }
+}

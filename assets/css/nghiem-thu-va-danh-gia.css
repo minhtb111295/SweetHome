@@ -1,0 +1,365 @@
+main {
+  max-width: 1280px;
+  margin: auto;
+}
+main section {
+  margin-bottom: 60px;
+}
+main .overView {
+  padding: 1.5rem;
+  display: flex;
+  gap: 2.5rem;
+}
+main .overView img {
+  width: auto;
+  height: auto;
+}
+main .overView .content__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main .overView .content__description span {
+  font-family: Inter-SemiBold;
+}
+main .overView .content__description .name {
+  font-family: Inter-SemiBold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main .overView .content__description .name img {
+  width: 24px;
+  height: 24px;
+}
+main .overView .content__description .step {
+  display: flex;
+  gap: 0.5rem;
+}
+main .overView .content__description .step span {
+  font-family: Inter-SemiBold;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  background-color: #EAECF0;
+  color: #919191;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .overView .content__description .step span.active {
+  background-color: #FFC803;
+  color: #000;
+}
+main .overView .content__description .description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .overView .content__description .author {
+  display: flex;
+  justify-content: space-between;
+}
+main .stepByStep {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.25rem;
+  align-items: center;
+  white-space: nowrap;
+  overflow: auto;
+}
+main .stepByStep .step {
+  padding: 0.25rem 0.5rem;
+  display: flex;
+}
+main .stepByStep .step .step__serial {
+  width: 1.25rem;
+  text-align: center;
+  font-family: Inter-SemiBold;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.175px;
+  color: #FFC803;
+  padding: 0 0.25rem;
+  background-color: #fff;
+  border: 0.5px solid #FFC803;
+  border-radius: 4px;
+}
+main .stepByStep .step .step__name {
+  margin-left: 0.5rem;
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  color: #919191;
+  line-height: 1.5rem;
+  letter-spacing: 0.175px;
+}
+main .stepByStep .step--active {
+  color: #000;
+  background-color: #FFC803;
+  border-radius: 8px;
+}
+main .stepByStep .step--active .step__serial {
+  color: #000;
+}
+main .stepByStep .step--active .step__name {
+  font-family: Inter-SemiBold;
+  color: #000;
+}
+main .title h3 {
+  font-family: Inter-SemiBold;
+  font-size: 2rem;
+  text-align: center;
+}
+main .list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main .list .list__topic {
+  font-family: Inter-SemiBold;
+  font-size: 1.25rem;
+}
+main .list .list__company {
+  display: flex;
+  gap: 2rem;
+  white-space: nowrap;
+  overflow: auto;
+}
+main .list .list__company .company {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  max-width: 180px;
+}
+main .list .list__company .company span {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+}
+main .list .list__company .company .company__top {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+main .list .list__company .company .company__top .description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .list .list__company .company .company__top .description .name {
+  display: flex;
+  align-items: center;
+  font-family: Inter-SemiBold;
+  font-size: 0.875rem;
+}
+main .list .list__company .company .company__top .description .price-number {
+  font-family: Inter-SemiBold;
+  font-size: 0.875rem;
+  padding: 0.5rem;
+  background-color: #FFEF9A;
+  border-radius: 8px;
+}
+main .list .list__company .company .company__middle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .list .list__company .company .company__bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .list .list__company .company .company__bottom .rate i {
+  color: #FFC803;
+}
+main .result {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+main .result .title {
+  font-family: Inter-SemiBold;
+  font-size: 1.5rem;
+}
+main .result .company {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main .result .company .description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .result .company .description .name {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-family: Inter-SemiBold;
+  font-size: 0.875rem;
+}
+main .result .company .description .price {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+}
+main .result .company .description .price span {
+  font-family: Inter-SemiBold;
+  font-size: 0.875rem;
+  padding: 6px 12px;
+  background-color: #FFEF9A;
+  border-radius: 8px;
+}
+main .result .company .description .score {
+  display: flex;
+  gap: 1rem;
+}
+main .result .company .description .score span {
+  font-family: Inter-SemiBold;
+  font-size: 0.875rem;
+}
+main .result .company .description .score .rate {
+  color: #FFC803;
+}
+main .result .nameJob {
+  font-family: Inter-SemiBold;
+  font-size: 1.25rem;
+}
+main .result .time {
+  display: flex;
+  gap: 1rem;
+}
+main .result .time span {
+  font-family: Inter-SemiBold;
+}
+main .result .time .end {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main .result .confirm {
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+main .result .confirm .confirm__top {
+  font-family: Inter-SemiBold;
+  font-size: 1.25rem;
+}
+main .result .confirm .confirm__middle {
+  display: flex;
+  gap: 1rem;
+}
+main .result .confirm .confirm__middle button {
+  width: 285px;
+  height: 60px;
+  font-family: Inter-SemiBold;
+  color: #fff;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+}
+main .result .confirm .confirm__middle button.button--deny {
+  background-color: red;
+}
+main .result .confirm .confirm__middle button.button--success {
+  background-color: blue;
+}
+main .result .confirm .confirm__bottom .opinion textarea {
+  padding: 0.5rem;
+  resize: none;
+}
+main .result .confirm .confirm__bottom .opinion textarea::placeholder {
+  font-family: Inter-Light;
+  font-size: 0.875rem;
+}
+main .result .confirm .confirm__bottom .evaluate {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+main .result .confirm .confirm__bottom .evaluate .rate i:hover {
+  border: #FFC803;
+  background-color: #FFC803;
+}
+
+@media (min-width: 741px) and (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+  main {
+    padding: 0 1rem;
+  }
+  main .overView {
+    gap: 0.5rem;
+  }
+  main .overView .content__description .step {
+    display: none;
+  }
+  main .overView .content__description .description {
+    gap: 0.25rem;
+  }
+  main .overView .content__description .author {
+    flex-direction: column;
+  }
+}
+@media (max-width: 740px) {
+  html {
+    font-size: 12px;
+  }
+  main {
+    padding: 0.5rem;
+  }
+  main section {
+    margin-bottom: 1rem;
+  }
+  main .overView {
+    gap: 0.5rem;
+  }
+  main .overView img {
+    width: 150px;
+    height: 150px;
+  }
+  main .overView .content__description .step {
+    display: none;
+  }
+  main .overView .content__description .address {
+    display: none;
+  }
+  main .overView .content__description .description {
+    gap: 0.25rem;
+  }
+  main .overView .content__description .author {
+    flex-direction: column;
+  }
+  main .overView .content__description .author span:nth-child(2) {
+    display: none;
+  }
+  main .overView .content__description .author span:nth-child(3) {
+    display: none;
+  }
+  main .list .list__topic {
+    text-align: center;
+  }
+  main .time {
+    flex-direction: column;
+  }
+  main .result .confirm {
+    border: none;
+  }
+  main .result .confirm .confirm__middle {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=nghiem-thu-va-danh-gia.css.map */

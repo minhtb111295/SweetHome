@@ -1,0 +1,82 @@
+<!-- FOOTER -->
+    <footer>
+        <div class="footer__content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 description">
+                        <div class="description__logo">
+                            <img src="../images/logo.png" alt="Logo">
+                        </div>
+                        <div class="description__text">
+                            Sweet home thành lập với sứ mệnh kết nối chủ nhà với các nhà thầu tin cậy. Những ngôi nhà
+                            được hoàn thiện như ý bạn là niềm tự hào của chúng tôi.
+                        </div>
+                        <div class="description__post">
+                            <a href="#">Bài viết</a>
+                        </div>
+                        <div class="description__blog">
+                            <a href="#">Blogs</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 rule">
+                        <h3>Quy định - điều khoản</h3>
+                        <a href="#">Giới thiệu công ty</a>
+                        <a href="#">Chính sách bảo mật</a>
+                        <a href="#">Hình thức thanh toán</a>
+                        <a href="#">Tuyển dụng</a>
+                        <a href="#">Điều khoản</a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 contact">
+                        <h3>Liên hệ</h3>
+                        <a href="#">Hỗ trợ - Trợ giúp</a>
+                        <a href="#">Góp ý khiếu nại</a>
+                        <a href="#">Câu hỏi thường gặp</a>
+                        <a href="#">Thông báo lỗi</a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 support">
+                        <h3>Tổng đài hỗ trợ ( Miễn phí)</h3>
+                        <a href="#">Tư vấn khách hàng: <br><span>00000000</span></a>
+                        <a href="#">Tư vấn nhà thầu: <br><span>00000000</span></a>
+                        <a href="#">Khiếu nại: <br><span>00000000</span></a>
+                        <a href="#">Bảo hành: <br><span>00000000</span></a>
+                    </div>
+
+                    <div class="col-lg-1 col-md-4 col-sm-6 col-6 object">
+                        <h3>Nhà thầu</h3>
+                        <a href="#">Công ty</a>
+                        <a href="#">Tổ đội</a>
+                        <a href="#">Kiến trúc sư</a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 social">
+                        <h3>Theo dõi chúng tôi</h3>
+                        <div class="socialMedia">
+                            <div class="social__item">
+                                <img src="../images/zalo.png" alt="Zalo">
+                            </div>
+                            <div class="social__item">
+                                <img src="../images/facebook.png" alt="Facebook">
+                            </div>
+                            <div class="social__item">
+                                <img src="../images/youtube.png" alt="Youtube">
+                            </div>
+                            <div class="social__item">
+                                <img src="../images/tiktok.png" alt="Tiktok">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__description">
+            <img src="../images/copyright.png" alt="Coppy Right">
+            <p>Công ty cổ phần Sweet home. GPDKKD:00000 do sở KH & ĐT TP.HCM cấp từ ngày 00/00/2023. GPMXH: 00/00/000 do
+                Bộ Thông Tin và Truyền Thông cấp ngày 00/00/2023. Địa chỉ: ....................., TP.HCM. ĐỊa chỉ liên
+                hệ và gửi chứng từ..............Điện thoại:00000000. Email: Sweethome@gmail.com.
+                <a href="#">Xem chính sách sử dụng.</a>
+            </p>
+        </div>
+    </footer>

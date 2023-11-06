@@ -1,0 +1,474 @@
+@import 'color';
+@import 'fonts';
+@import 'letter-spacing';
+
+// Variables
+$border: 0.5px solid $secondary-color;
+
+// BREAK POINT
+
+// Desktop Screen
+main {
+    max-width: 1280px;
+    margin: auto;
+
+    section {
+        margin-bottom: 60px;
+    }
+
+    // Over View
+    .overView {
+        padding: 1.5rem;
+                display: flex;
+                gap: 2.5rem;
+
+                img {
+                    width: auto;
+                    height: auto;
+                }
+    
+                .content__description {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+    
+                    span {
+                        font-family: $Inter600;
+                    }
+    
+                    .name {
+                        font-family: $Inter600;
+                        font-size: 1.5rem;
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+    
+                        img {
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+    
+                    .step {
+                        display: flex;
+                        gap: 0.5rem;
+    
+                        span {
+                            font-family: $Inter600;
+                            font-size: 0.75rem;
+                            padding: 0.5rem;
+                            background-color: #EAECF0;
+                            color: $secondary-color;
+                            border-radius: 8px;
+                            display: flex;
+                            align-items: center;
+                            gap: 0.5rem;
+    
+                            &.active {
+                                background-color: $primary-color;
+                                color: #000;
+                            }
+                        }
+                    }
+    
+                    .description {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 1rem;
+                    }
+    
+                    .author {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+    }
+
+    // Step by Step
+    .stepByStep {
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+        gap: 0.25rem;
+        align-items: center;
+        white-space: nowrap;
+        overflow: auto;
+
+        .step {
+            padding: 0.25rem 0.5rem;
+            display: flex;
+
+            .step__serial {
+                width: 1.25rem;
+                text-align: center;
+                font-family: Inter-SemiBold;
+                font-size: 0.75rem;
+                line-height: 1.5rem;
+                letter-spacing: $level2;
+                color: $primary-color;
+                padding: 0 0.25rem;
+                background-color: #fff;
+                border: 0.5px solid $primary-color;
+                border-radius: 4px;
+            }
+
+            .step__name {
+                margin-left: 0.5rem;
+                font-family: Inter-Light;
+                font-size: 0.75rem;
+                color: $secondary-color;
+                line-height: 1.5rem;
+                letter-spacing: $level2;
+            }
+
+            &--active {
+                color: #000;
+                background-color: $primary-color;
+                border-radius: 8px;
+
+                .step__serial {
+                    color: #000;
+                }
+
+                .step__name {
+                    font-family: $Inter600;
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    // Title
+    .title {
+        h3 {
+            font-family: $Inter600;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+
+    // List Company
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .list__topic {
+            font-family: $Inter600;
+            font-size: 1.25rem;
+        }
+
+        .list__company {
+            display: flex;
+            gap: 2rem;
+            white-space: nowrap;
+            overflow: auto;
+
+            .company {
+                display: flex;
+                flex-direction: column;
+                gap: 0.25rem;
+                max-width: 180px;
+
+                span {
+                    font-family: $Inter400;
+                    font-size: 0.75rem;
+                }
+
+                .company__top {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.25rem;
+
+                    .description {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        .name {
+                            display: flex;
+                            align-items: center;
+                            font-family: $Inter600;
+                            font-size: 0.875rem;
+                        }
+
+                        .price-number {
+                            font-family: $Inter600;
+                            font-size: 0.875rem;
+                            padding: 0.5rem;
+                            background-color: #FFEF9A;
+                            border-radius: 8px;
+                        }
+                    }
+                }
+
+                .company__middle {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+
+                .company__bottom {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    .rate {
+                        i {
+                            color: $primary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Result 
+    .result {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+
+        .title {
+            font-family: $Inter600;
+            font-size: 1.5rem;
+        }
+
+        .company {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            .description {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+
+                .name {
+                    display: flex;
+                    gap: 0.5rem;
+                    align-items: center;
+                    font-family: $Inter600;
+                    font-size: 0.875rem;
+                }
+
+                .price {
+                    font-family: $Inter400;
+                    font-size: 0.75rem;
+
+                    span {
+                        font-family: $Inter600;
+                        font-size: 0.875rem;
+                        padding: 6px 12px;
+                        background-color: #FFEF9A;
+                        border-radius: 8px;
+                    }
+                }
+
+                .score {
+                    display: flex;
+                    gap: 1rem;
+
+                    span {
+                        font-family: $Inter600;
+                        font-size: 0.875rem;
+                    }
+
+                    .rate {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+
+        .nameJob {
+            font-family: $Inter600;
+            font-size: 1.25rem;
+        }
+
+        .time {
+            span {
+                font-family: $Inter600;
+            }
+
+            display: flex;
+            gap: 1rem;
+
+            .end {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+
+        .confirm {
+            border: $border;
+            border-radius: 8px;
+            padding: 1.5rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+
+            .confirm__top {
+                font-family: $Inter600;
+                font-size: 1.25rem;
+            }
+
+            .confirm__middle {
+                display: flex;
+                gap: 1rem;
+
+                button {
+                    width: 285px;
+                    height: 60px;
+                    font-family: $Inter600;
+                    color: #fff;
+                    display: flex;
+                    gap: 1rem;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0.5rem 1rem;
+                    border: none;
+                    border-radius: 8px;
+
+                    &.button--deny {
+                        background-color: red;
+                    }
+
+                    &.button--success {
+                        background-color: blue;
+                    }
+                }
+            }
+
+            .confirm__bottom {
+                .opinion {
+                    textarea {
+                        padding: 0.5rem;
+                        resize: none;
+
+                        &::placeholder {
+                            font-family: $Inter400;
+                            font-size: 0.875rem;
+                        }
+                    }
+                }
+
+                .evaluate {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+                    align-items: center;
+
+                    .rate {
+                        i {
+                            &:hover {
+                                border: $primary-color;
+                                background-color: $primary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Tablet Screen
+@media (min-width: 741px) and (max-width: 1024px) {
+    html {
+        font-size: 14px;
+    }
+
+    main {
+        padding: 0 1rem;
+        .overView {
+            gap: 0.5rem;
+
+            .content__description {
+                .step {
+                    display: none;
+                }
+
+                .description {
+                    gap: 0.25rem;
+                }
+
+                .author {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+// Mobile Screen
+@media (max-width: 740px) {
+    html {
+        font-size: 12px;
+    }
+
+    main {
+        padding: 0.5rem;
+        section {
+            margin-bottom: 1rem;
+        }
+        
+        .overView {
+            gap: 0.5rem;
+
+            img {
+                width: 150px;
+                height: 150px;
+            }
+
+            .content__description {
+                .step {
+                    display: none;
+                }
+
+                .address {
+                    display: none;
+                }
+
+                .description {
+                    gap: 0.25rem;
+                }
+
+                .author {
+                    flex-direction: column;
+                    span {
+                        &:nth-child(2) {
+                            display: none;
+                        }
+                        &:nth-child(3) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .list {
+            .list__topic {
+                text-align: center;
+            }
+        }
+
+        .time {
+            flex-direction: column;
+        }
+
+        .result {
+            .confirm {
+                border: none;
+
+                .confirm__middle {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}

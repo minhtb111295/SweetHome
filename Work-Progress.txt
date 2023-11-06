@@ -1,0 +1,10 @@
+Tiến độ:
+    + 03-11-2023:
+        * Trang 'Ký hợp đồng':
+            đường dẫn ../manhinhchung/ky-hop-dong.html (100%)
+
+        * Trang 'Nghiệm thu và đánh giá':
+            đường dẫn ../manhinhchung/nghiem-thu-va-danh-gia.html (100%)
+
+        * Trang 'Hồ sơ nhà thầu':
+            đường dẫn ../nhathau/ho-so-nha-thau.html (20%)

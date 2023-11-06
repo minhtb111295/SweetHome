@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Home</title>
+    <link rel="shortcut icon" href="../images/avatarSH.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/body.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/chu-nha-dang-tin.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="searchIcon" style="display: none;">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a class="navbar-brand" href="#">
+                <img src="../images/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../chunha/trang-chu-chu-nha.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../nhathau/trang-chu-nha-thau.html">Nhà thầu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../manhinhchung/trang-chu-man-hinh-chung.html">Về chúng tôi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../nhathau/bang-khoi-luong.html">Trợ giúp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog Kiến thức</a>
+                    </li>
+                    <li class="nav-item itemMobile" style="display: none;">
+                        <a class="nav-link" href="#">
+                            <a href="../manhinhchung/dang-nhap.html">Đăng nhập</a>
+                            /
+                            <a href="../manhinhchung/dang-ky.html">Đăng ký</a>
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 mr-0">
+                    <div class="search">
+                        <div class="search__text">
+                            Tìm kiếm
+                        </div>
+                        <div class="search__icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="more__icon">
+                            <i class="fa-regular fa-bell"></i>
+                            <span>3</span>
+                        </div>
+                        <div class="more__icon">
+                            <i class="fa-regular fa-envelope"></i>
+                            <span>3</span>
+                        </div>
+                        <div class="more__icon">
+                            <a href="../manhinhchung/dang-nhap.html"><i class="fa-solid fa-person"></i></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="container breadcrumb">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                    <li class="breadcrumb-item"><a href="#">Chủ nhà</a></li>
+                    <li class="breadcrumb-item" aria-current="page">Đăng tin</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="container hostPost">
+            <!-- Step by Step -->
+            <section class="stepByStep">
+                <div class="step step--active">
+                    <div class="step__serial">1</div>
+                    <div class="step__name">Đăng bài</div>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="step">
+                    <div class="step__serial">2</div>
+                    <div class="step__name">Lựa chọn nhà thầu</div>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="step">
+                    <div class="step__serial">3</div>
+                    <div class="step__name">Ký hợp đồng</div>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="step">
+                    <div class="step__serial">4</div>
+                    <div class="step__name">Đặt cọc</div>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="step">
+                    <div class="step__serial">5</div>
+                    <div class="step__name">Theo dõi tiến độ</div>
+                </div>
+                <i class="fa-solid fa-arrow-right"></i>
+                <div class="step">
+                    <div class="step__serial">6</div>
+                    <div class="step__name">Nghiệm thu và đánh giá</div>
+                </div>
+            </section>
+
+            <!-- Title of Post -->
+            <section class="title">
+                <h2>Bài đăng</h2>
+            </section>
+
+            <!-- List Services -->
+            <section class="listServices">
+                <div class="topic">Dịch vụ cần làm</div>
+                <div class="container-fluid services">
+                    <div class="row">
+                        <div class="col-6 col-md-4 col-lg-2 service">
+                            <input type="checkbox">Tất cả
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 service">
+                            <input type="checkbox">Khảo sát 2D
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 service">
+                            <input type="checkbox">Concept - 3D
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 service">
+                            <input type="checkbox">Thiết kế thi công
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 service">
+                            <input type="checkbox">Giám sát
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-2 service">
+                            <input type="checkbox">Thi công
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Title of Post -->
+            <section class="postTitle">
+                <div class="topic">Tiêu đề bài đăng</div>
+                <div class="target">
+                    <input type="text" placeholder="Nhập tiêu đề bài đăng">
+                </div>
+            </section>
+
+            <!-- Total Cost -->
+            <section class="totalCost">
+                <div class="topic">Tổng chi phí gói thầu dự tính</div>
+                <div class="target">
+                    <input type="text" placeholder="Nhập số tiền gói thầu">
+                </div>
+            </section>
+
+            <!-- Images of House -->
+            <section class="imageHouse">
+                <div class="topic">Hình ảnh hiện trạng căn hộ</div>
+                <div class="btnUpload">
+                    <button>
+                        <i class="fa-solid fa-upload"></i>
+                        Tải file lên
+                    </button>
+                </div>
+            </section>
+
+            <!-- Featured -->
+            <section class="features">
+                <div class="topic">Đặc điểm công trình</div>
+                <div class="item">Quy mô</div>
+                <div class="target">
+                    <input type="text" placeholder="Nhập diện tích căn hộ">
+                </div>
+                <div class="item">Địa điểm</div>
+                <div class="button">
+                    <div class="btn__one">
+                        <button>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Sử dụng vị trí của bạn
+                        </button>
+                    </div>
+                    <div class="btn__two">
+                        <button>
+                            <i class="fa-solid fa-map"></i>
+                            Chọn trên bản đồ
+                        </button>
+                    </div>
+                </div>
+                <div class="target">
+                    <input type="text" placeholder="Nhập vị trí địa điểm">
+                </div>
+                <div class="item">Loại hình</div>
+                <div class="container-fluid types">
+                    <div class="row">
+                        <div class="col-6 col-lg-4 type">
+                            <input type="checkbox">Chung cư/căn hộ
+                        </div>
+                        <div class="col-6 col-lg-4 type">
+                            <input type="checkbox">Nhà phố
+                        </div>
+                        <div class="col-6 col-lg-4 type">
+                            <input type="checkbox">Biệt thự
+                        </div>
+                        <div class="col-6 col-lg-4 type">
+                            <input type="checkbox">Văn phòng
+                        </div>
+                        <div class="col-6 col-lg-4 type">
+                            <input type="checkbox">Nhà hàng
+                        </div>
+                        <div class="col-6 col-lg-4 type">
+                            <input type="checkbox">Quán cafe
+                        </div>
+                    </div>
+                </div>
+                <div class="error">
+                    Không được để trống mục này
+                </div>
+                <div class="item">
+                    Số phòng ngủ
+                </div>
+                <div class="container-fluid p-0 sleepRooms">
+                    <div class="row">
+                        <div class="col-12 col-lg-3 sleepRoom">
+                            <input type="radio" name="numberRoom">1 phòng
+                        </div>
+                        <div class="col-12 col-lg-3 sleepRoom">
+                            <input type="radio" name="numberRoom">2 phòng
+                        </div>
+                        <div class="col-12 col-lg-3 sleepRoom">
+                            <input type="radio" name="numberRoom">3 phòng
+                        </div>
+                        <div class="col-12 col-lg-3 sleepRoom">
+                            <input type="radio" name="numberRoom">Tùy chỉnh
+                            <input type="text" placeholder="Nhập số phòng">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    Số tầng
+                </div>
+                <div class="container-fluid p-0 floors">
+                    <div class="row">
+                        <div class="col-12 col-lg-3 floor">
+                            <input type="radio" name="numberFloor">Nhà trệt
+                        </div>
+                        <div class="col-12 col-lg-3 floor">
+                            <input type="radio" name="numberFloor">1 Tầng
+                        </div>
+                        <div class="col-12 col-lg-3 floor">
+                            <input type="radio" name="numberFloor">2 Tầng
+                        </div>
+                        <div class="col-12 col-lg-3 floor">
+                            <input type="radio" name="numberFloor">Tùy chỉnh
+                            <input type="text" placeholder="Nhập số tầng">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    Mô tả thêm hiện trạng
+                </div>
+                <div class="descriptionMore">
+                    <textarea name="description" cols="30" rows="10"
+                        placeholder="Nhập mô tả thêm hiện trạng"></textarea>
+                </div>
+                <div class="error">
+                    Nội dung bài đăng không được bỏ trống
+                </div>
+                <div class="item">
+                    Yêu cầu về Khảo Sát - Thiết kế 3D - Thiết kế thi công, dự toán
+                </div>
+                <div class="request">
+                    <textarea name="request" placeholder="Nhập nội dung yêu cầu"></textarea>
+                </div>
+            </section>
+
+            <!-- Documents and Drawings -->
+            <section class="documentsAndDrawings">
+                <div class="topic">Tài liệu và bản vẽ</div>
+                <div class="btnUpload">
+                    <button>
+                        <i class="fa-solid fa-upload"></i>
+                        Tải file lên
+                    </button>
+                </div>
+                <div class="item">
+                    Tài liệu đã có
+                </div>
+                <div class="container-fluid files">
+                    <div class="row">
+                        <div class="col-12 file">
+                            <input type="checkbox" name="numberFloor">Bản vẽ thi công 2D
+                        </div>
+                        <div class="col-12 file">
+                            <input type="checkbox" name="numberFloor">Concept 3D
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Intend Time -->
+            <section class="time">
+                <div class="topic">Thời gian dự kiến</div>
+                <div class="content">
+                    <div class="startDateTime">
+                        <div class="item">Ngày bắt đầu</div>
+                        <input type="datetime-local">
+                    </div>
+                    <span>Đến</span>
+                    <div class="endDateTime">
+                        <div class="item">Ngày kết thúc</div>
+                        <input type="datetime-local">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Notes -->
+            <section class="notes">
+                <div class="topic">Lưu ý thi công</div>
+                <div class="row">
+                    <div class="col-6 col-md-4 note">
+                        <textarea rows="2"
+                            placeholder="Đường xe chạy: xe tải, hay ba gác... có thể ra vào được"></textarea>
+                    </div>
+                    <div class="col-6 col-md-4 note">
+                        <textarea rows="2"
+                            placeholder="Giấy phép thi công: đã có những giấy phép thi công nào"></textarea>
+                    </div>
+                    <div class="col-6 col-md-4 note">
+                        <textarea rows="2"
+                            placeholder="Điện nước thi công: sử dụng điện và nước sinh trong quá trình thi công"></textarea>
+                    </div>
+                    <div class="col-6 col-md-4 note">
+                        <textarea rows="2" placeholder="Chỗ vệ sinh cho nhà thầu thi công có không và ở đâu"></textarea>
+                    </div>
+                    <div class="col-6 col-md-4 note">
+                        <textarea rows="2"
+                            placeholder="Thời gian được phép làm ồn là vào khoảng thời gian nào"></textarea>
+                    </div>
+                </div>
+                <div class="note__warning">Lưu ý là thông tin cần thiết cho nhà thầu</div>
+            </section>
+
+            <!-- Button Submit -->
+            <section class="btnSubmit">
+                <div class="btnSubmit__item">
+                    <button>Lưu nháp</button>
+                </div>
+                <div class="btnSubmit__item btnSubmit--active">
+                    <button>Đăng bài</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer__content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 description">
+                        <div class="description__logo">
+                            <img src="../images/logo.png" alt="Logo">
+                        </div>
+                        <div class="description__text">
+                            Sweet home thành lập với sứ mệnh kết nối chủ nhà với các nhà thầu tin cậy. Những ngôi nhà
+                            được hoàn thiện như ý bạn là niềm tự hào của chúng tôi.
+                        </div>
+                        <div class="description__post">
+                            <a href="#">Bài viết</a>
+                        </div>
+                        <div class="description__blog">
+                            <a href="#">Blogs</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 rule">
+                        <h3>Quy định - điều khoản</h3>
+                        <a href="#">Giới thiệu công ty</a>
+                        <a href="#">Chính sách bảo mật</a>
+                        <a href="#">Hình thức thanh toán</a>
+                        <a href="#">Tuyển dụng</a>
+                        <a href="#">Điều khoản</a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 contact">
+                        <h3>Liên hệ</h3>
+                        <a href="#">Hỗ trợ - Trợ giúp</a>
+                        <a href="#">Góp ý khiếu nại</a>
+                        <a href="#">Câu hỏi thường gặp</a>
+                        <a href="#">Thông báo lỗi</a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-6 support">
+                        <h3>Tổng đài hỗ trợ ( Miễn phí)</h3>
+                        <a href="#">Tư vấn khách hàng: <br><span>00000000</span></a>
+                        <a href="#">Tư vấn nhà thầu: <br><span>00000000</span></a>
+                        <a href="#">Khiếu nại: <br><span>00000000</span></a>
+                        <a href="#">Bảo hành: <br><span>00000000</span></a>
+                    </div>
+
+                    <div class="col-lg-1 col-md-4 col-sm-6 col-6 object">
+                        <h3>Nhà thầu</h3>
+                        <a href="#">Công ty</a>
+                        <a href="#">Tổ đội</a>
+                        <a href="#">Kiến trúc sư</a>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 social">
+                        <h3>Theo dõi chúng tôi</h3>
+                        <div class="socialMedia">
+                            <div class="social__item">
+                                <img src="../images/zalo.png" alt="Zalo">
+                            </div>
+                            <div class="social__item">
+                                <img src="../images/facebook.png" alt="Facebook">
+                            </div>
+                            <div class="social__item">
+                                <img src="../images/youtube.png" alt="Youtube">
+                            </div>
+                            <div class="social__item">
+                                <img src="../images/tiktok.png" alt="Tiktok">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__description">
+            <img src="../images/copyright.png" alt="Coppy Right">
+            <p>Công ty cổ phần Sweet home. GPDKKD:00000 do sở KH & ĐT TP.HCM cấp từ ngày 00/00/2023. GPMXH: 00/00/000 do
+                Bộ Thông Tin và Truyền Thông cấp ngày 00/00/2023. Địa chỉ: ....................., TP.HCM. ĐỊa chỉ liên
+                hệ và gửi chứng từ..............Điện thoại:00000000. Email: Sweethome@gmail.com.
+                <a href="#">Xem chính sách sử dụng.</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="../assets/popper.min.js"></script>
+    <script src="../assets/jquery.min.js"></script>
+    <script src="../assets/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

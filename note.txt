@@ -1,0 +1,22 @@
+Pause in JS Config, Reponsive Tablet Screen
+
+- Luồng hoạt động của trang web: (sẽ cập nhật ở đây khi có sự thay đổi hoặc thêm mới page)
+Trên thanh header sẽ có các tùy chọn sau:
++ Trang chủ: màn hình chính của đối tượng chủ nhà (mặc định khi truy cập website sẽ chạy trang này)
++ Nhà thầu: màn hình chính của đối tượng nhà thầu
++ Về chúng tôi: màn hình chung của cả 2 đối tượng trên
++ Trợ giúp: màn hình 'Bảng thống kê' (trang này hiện tại em đang để tạm chứ chưa chuẩn logic)
++ Blog kiến thức: đang cập nhật
++ Icon Person (chỉ hiển thị trên PC): truy cập vào trang đăng nhập
++ Đăng nhập (chỉ hiển thị trên Mobile): truy cập trang đăng nhập
++ Đăng ký (chỉ hiển thị trên Mobile): truy cập trang đăng ký
+
+Trang 'Về chúng tôi':
++ Button 'Tôi là chủ nhà': truy cập trang 'Chủ nhà đăng tin'
++ Button 'Tôi là nhà thầu': truy cập trang 'Nhà thầu xem tin đăng'
+
+Trang nhà thầu xem tin đăng:
++ Tab 'Tổng quan': thể hiện tổng quan các đơn vị đang đấu giá thầu
++ Tab 'Thống kê giá chào thầu': thể hiện các mức giá đấu thầu theo dạng biểu đồ
+
+...

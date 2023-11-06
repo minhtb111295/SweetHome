@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Home</title>
+    <link rel="shortcut icon" href="../images/avatarSH.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/body.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/dang-ky.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="searchIcon" style="display: none;">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a class="navbar-brand" href="#">
+                <img src="../images/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../chunha/trang-chu-chu-nha.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../nhathau/trang-chu-nha-thau.html">Nhà thầu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trang-chu-man-hinh-chung.html">Về chúng tôi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../nhathau/bang-khoi-luong.html">Trợ giúp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog Kiến thức</a>
+                    </li>
+                    <li class="nav-item itemMobile" style="display: none;">
+                        <a class="nav-link" href="#">
+                            <a href="../manhinhchung/dang-nhap.html">Đăng nhập</a>
+                            /
+                            <a href="../manhinhchung/dang-ky.html">Đăng ký</a>
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 mr-0">
+                    <div class="search">
+                        <div class="search__text">
+                            Tìm kiếm
+                        </div>
+                        <div class="search__icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    <div class="more">
+                        <div class="more__icon">
+                            <i class="fa-regular fa-bell"></i>
+                            <span>3</span>
+                        </div>
+                        <div class="more__icon">
+                            <i class="fa-regular fa-envelope"></i>
+                            <span>3</span>
+                        </div>
+                        <div class="more__icon">
+                            <a href="../manhinhchung/dang-nhap.html"><i class="fa-solid fa-person"></i></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="container register">
+            <div class="row">
+                <!-- Banner -->
+                <div class="col-12 col-md-6 register__banner"></div>
+
+                <!-- Form Register -->
+                <div class="col-12 col-md-6 register__content">
+                    <h2 class="content__title">Đăng ký</h2>
+                    <p class="content__description">Tạo tài khoản ngay thôi nào!</p>
+                    <h3 class="content__topic">Bạn là ai</h3>
+                    <div class="content__select">
+                        <div class="select__item">
+                            Chủ nhà <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Người quản lý <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Nhà thầu <input type="checkbox">
+                        </div>
+                    </div>
+                    <h3 class="content__topic">Nhà thầu</h3>
+                    <div class="content__select object">
+                        <div class="select__item">
+                            Công ty <input class="companyCheck" type="radio" name="object" onclick="showByCompany();">
+                        </div>
+                        <div class="select__item">
+                            Kiến trúc sư <input class="contructorCheck" type="radio" name="object"
+                                onclick="showByContructor();">
+                        </div>
+                        <div class="select__item">
+                            Tổ đội <input class="teamCheck" type="radio" name="object" onclick="showByTeam();">
+                        </div>
+                    </div>
+                    <h3 class="content__topic">Hạng mục nhận thầu</h3>
+                    <!-- List checkbox of Company -->
+                    <div class="content__select company none">
+                        <div class="select__item">
+                            Khảo sát 2D <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Concept - 3D <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Thiết kế thi công <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Giám sát <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Thi công <input type="checkbox">
+                        </div>
+                    </div>
+                    <!-- List checkbox of Contructor -->
+                    <div class="content__select contructor none">
+                        <div class="select__item">
+                            Khảo sát <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            3D <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            TKTC <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Giám sát <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Dự toán <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Quy hoạch <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Kiến trúc <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Nội thất <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Kết cấu <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Điện nước <input type="checkbox">
+                        </div>
+                    </div>
+                    <!-- List checkbox of Team -->
+                    <div class="content__select team none">
+                        <div class="select__item">
+                            Xưởng gỗ <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Xây thô <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Điện nước <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Thạch cao <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Nhôm kính <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Máy lạnh <input type="checkbox">
+                        </div>
+                        <div class="select__item">
+                            Đá <input type="checkbox">
+                        </div>
+                    </div>
+                    <h3 class="content__topic">Tên</h3>
+                    <input class="content__field" type="text" placeholder="Nhập tên">
+                    <h3 class="content__topic">Email</h3>
+                    <input class="content__field" type="text" placeholder="Nhập địa chỉ email">
+                    <h3 class="content__topic">Số điện thoại</h3>
+                    <input class="content__field" type="text" placeholder="Nhập số điện thoại">
+                    <h3 class="content__topic">Mật khẩu</h3>
+                    <input class="content__field" type="password" placeholder="Nhập mật khẩu của bạn">
+                    <h3 class="content__topic">Nhập lại mật khẩu</h3>
+                    <input class="content__field" type="password" placeholder="Nhập lại mật khẩu">
+                    <div class="content__tip">
+                        <div>
+                            <input type="checkbox">Bạn đồng ý với các
+                        </div>
+                        <a href="#"> Điều khoản</a>
+                    </div>
+                    <div class="content__button button--active"><button>Đăng nhập</button></div>
+                    <div class="content__button"><button>Đăng nhập với Google</button></div>
+                    <div class="content__button"><button>Đăng nhập với Facebook</button></div>
+                    <div class="content__signup">
+                        Đã có tài khoản? <a href="dang-nhap.html">Đăng nhập</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../assets/popper.min.js"></script>
+    <script src="../assets/jquery.min.js"></script>
+    <script src="../assets/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="../assets/js/dang-ky.js"></script>
+</body>
+
+</html>

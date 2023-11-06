@@ -1,0 +1,179 @@
+@font-face {
+  font-family: Inter-Light;
+  src: url(../fonts/Inter/Inter-Light.ttf);
+}
+@font-face {
+  font-family: Inter-Regular;
+  src: url(../fonts/Inter/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-Medium;
+  src: url(../fonts/Inter/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: Inter-SemiBold;
+  src: url(../fonts/Inter/Inter-SemiBold.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(../fonts/Inter/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: Inter-ExtraBold;
+  src: url(../fonts/Inter/Inter-ExtraBold.ttf);
+}
+@font-face {
+  font-family: QuickSand-Regular;
+  src: url(../fonts/QuickSand/Quicksand-Regular.ttf);
+}
+main {
+  padding-top: 24px;
+  border-top: 2px solid #919191;
+  color: #1E293B;
+}
+main .register .register__banner {
+  background-image: url(../images/register-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .register .register__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px 64px;
+  border: 0.5px solid #000;
+  border-left: none;
+}
+main .register .register__content .content__title {
+  font-family: Inter-SemiBold;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.96px;
+}
+main .register .register__content .content__description {
+  margin-top: 8px;
+  margin-bottom: 16px;
+  font-family: Inter-Light;
+  font-size: 20px;
+  line-height: 30px;
+}
+main .register .register__content .content__topic {
+  margin-top: 16px;
+  font-family: Inter-Medium;
+  font-size: 14px;
+  line-height: 20px;
+}
+main .register .register__content .content__select {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .register .register__content .content__select .select__item {
+  margin-top: 6px;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+  padding: 6px 12px;
+  font-family: Inter-Light;
+  line-height: 24px;
+}
+main .register .register__content .content__select .select__item input[type=checkbox] {
+  display: inline-block;
+  margin-left: 6px;
+}
+main .register .register__content .company {
+  display: none;
+}
+main .register .register__content .contructor {
+  display: none;
+}
+main .register .register__content .team {
+  display: none;
+}
+main .register .register__content .content__field {
+  margin-top: 6px;
+  padding: 12px 16px;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+}
+main .register .register__content .content__field::placeholder {
+  font-family: Inter-Light;
+  color: rgba(25, 36, 5, 0.6);
+  line-height: 24px;
+}
+main .register .register__content .content__tip {
+  margin: 24px 0px;
+  display: flex;
+  font-family: Inter-Light;
+  line-height: 24px;
+}
+main .register .register__content .content__tip input {
+  margin-right: 8px;
+}
+main .register .register__content .content__tip a {
+  margin-left: 6px;
+  font-family: Inter-SemiBold;
+  color: #2563EB;
+}
+main .register .register__content .content__button {
+  margin-bottom: 16px;
+}
+main .register .register__content .content__button button {
+  width: 100%;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  font-family: Inter-SemiBold;
+  line-height: 24px;
+}
+main .register .register__content .button--active button {
+  background-color: #FFC803;
+}
+main .register .register__content .content__signup {
+  text-align: center;
+  font-family: Inter-Light;
+  font-size: 14px;
+}
+main .register .register__content .content__signup a {
+  font-size: 14px;
+  font-family: Inter-SemiBold;
+}
+
+@media (max-width: 740px) {
+  main {
+    margin-top: 0px;
+  }
+  main .register .register__banner {
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/register-banner-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  main .register .register__content {
+    padding: 16px;
+    border: none;
+  }
+  main .register .register__content .content__title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  main .register .register__content .content__description {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 0px;
+  }
+  main .register .register__content .content__select {
+    justify-content: flex-start;
+  }
+  main .register .register__content .content__select .select__item {
+    margin-right: 8px;
+    padding: 4px 6px;
+    font-size: 12px;
+  }
+  main .register .register__content .content__select .select__item:last-child {
+    margin-right: 0px;
+  }
+}
+
+/*# sourceMappingURL=dang-ky.css.map */

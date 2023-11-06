@@ -1,0 +1,1646 @@
+main {
+  max-width: 1280px;
+  margin: auto;
+}
+main section {
+  margin-bottom: 60px;
+}
+main .breadcrumb {
+  margin-bottom: 0;
+}
+main .breadcrumb ol.breadcrumb {
+  margin-bottom: 0px;
+}
+main .breadcrumb ol.breadcrumb li.breadcrumb-item a {
+  font-family: Inter-Light;
+  font-size: 14px;
+  color: #919191;
+  letter-spacing: 0.175px;
+}
+main .breadcrumb ol.breadcrumb li.breadcrumb-item:last-of-type {
+  display: flex;
+  align-items: center;
+  font-family: Inter-Light;
+  font-size: 14px;
+  color: #000;
+  letter-spacing: 0.175px;
+}
+main .fixBreadcrumb {
+  background-color: transparent;
+}
+main .fixBreadcrumb ol {
+  background-color: transparent;
+}
+main .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .title .title__text .text__name {
+  font-family: Inter-SemiBold;
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+main .title .title__text .text__note {
+  margin-top: 0.25rem;
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.048px;
+  color: #919191;
+}
+main .title .title__text .text__note span {
+  color: #000;
+}
+main .title .title__button {
+  gap: 1rem;
+}
+main .title .title__button button {
+  gap: 0.5rem;
+  padding: 8px 16px;
+  border: 0.5px solid #FFC803;
+  border-radius: 8px;
+  background-color: #fff;
+  font-family: Inter-SemiBold;
+  font-size: 14px;
+  color: #FFC803;
+  line-height: 1.25rem;
+  letter-spacing: 0.175px;
+}
+main .title .title__button button i {
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+main .template {
+  border: 0.5px solid #919191;
+}
+main .template .template__topic {
+  height: 44px;
+  padding: 0 1.25rem;
+  background-color: #F9FAFB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .template .template__topic .topic__text {
+  font-family: Inter-Bold;
+  line-height: 1.25rem;
+  letter-spacing: 0.5px;
+}
+main .template .template__topic button {
+  border: none;
+  background-color: transparent;
+}
+main .template .template__content .row {
+  padding: 2rem 0;
+}
+main .template .template__content .row .template__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+}
+main .template .template__content .row .template__item span {
+  font-family: Inter-SemiBold;
+}
+main .template .template__content .row .template__item .item__image img {
+  width: 230px;
+  height: 200px;
+}
+main .template .template__content .row .template__item .item__description {
+  width: 230px;
+  padding: 1rem;
+  border: 0.5px solid #919191;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+main .template .template__content .row .template__item .item__description .name {
+  display: flex;
+}
+main .template .template__content .row .template__item .item__description .name .text {
+  font-family: Inter-SemiBold;
+  font-size: 1rem;
+}
+main .template .template__content .row .template__item .item__description .around {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+main .template .template__content .row .template__item .item__description .around i {
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 1.25rem;
+}
+main .template .template__content .row .template__item .item__description .around .elementRelative {
+  color: #FFC803;
+}
+main .template .template__content .row .template__item .item__description .around span.number {
+  position: absolute;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1rem;
+  padding: 0 0.25rem;
+  background-color: red;
+  border-radius: 50%;
+  top: -5px;
+  right: 35px;
+}
+main .template .template__content .row .template__item .item__description .button {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .template .template__content .row .template__item .item__description .button button {
+  width: 95px;
+  text-align: center;
+  font-family: Inter-SemiBold;
+  font-size: 0.75rem;
+  padding: 8px;
+  color: #FFC803;
+  background-color: #fff;
+  border: 0.5px solid #FFC803;
+  border-radius: 8px;
+}
+main .template .template__content .row .template__item .item__description .button button:hover {
+  border: none;
+  color: #000;
+  background-color: #FFC803;
+}
+main .template .template__button {
+  text-align: center;
+}
+main .template .template__button button {
+  border: none;
+  background-color: #FFC803;
+  color: #fff;
+  padding: 8px 24px;
+  font-family: Inter-SemiBold;
+  font-size: 14px;
+  border-radius: 1rem;
+}
+main .overview {
+  border: 0.5px solid #919191;
+}
+main .overview .overview__topic {
+  height: 44px;
+  padding: 0 1.25rem;
+  background-color: #F9FAFB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .overview .overview__topic .topic__text {
+  font-family: Inter-Bold;
+  line-height: 1.25rem;
+  letter-spacing: 0.5px;
+}
+main .overview .overview__topic button {
+  border: none;
+  background-color: transparent;
+}
+main .overview .overview__content .row {
+  padding: 1.5rem;
+  display: flex;
+  gap: 1rem;
+}
+main .overview .overview__content .row img {
+  width: auto;
+  height: auto;
+}
+main .overview .overview__content .row .content__description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+main .overview .overview__content .row .content__description span {
+  font-family: Inter-SemiBold;
+}
+main .overview .overview__content .row .content__description .name {
+  font-family: Inter-SemiBold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main .overview .overview__content .row .content__description .name img {
+  width: 24px;
+  height: 24px;
+}
+main .overview .overview__content .row .content__description .step {
+  display: flex;
+  gap: 0.5rem;
+}
+main .overview .overview__content .row .content__description .step span {
+  font-family: Inter-SemiBold;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  background-color: #EAECF0;
+  color: #919191;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .overview .overview__content .row .content__description .step span.active {
+  background-color: #FFC803;
+  color: #000;
+}
+main .overview .overview__content .row .content__description .description {
+  display: flex;
+  gap: 1.5rem;
+}
+main .overview .overview__content .row .content__description .author {
+  display: flex;
+  justify-content: space-between;
+}
+main .table--main th {
+  text-align: center;
+}
+main .table--main td {
+  text-align: center;
+  vertical-align: middle;
+}
+main .table--main .note {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  text-align: end;
+}
+main .table--main .table {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+main .table--main .interior__topic {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dee2e6;
+}
+main .table--main .interior__topic .topic__serial {
+  min-width: 90px;
+  text-align: center;
+  border-right: 0.5px solid #dee2e6;
+  line-height: 51px;
+}
+main .table--main .interior__topic .topic__middle {
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .table--main .interior__topic .topic__button {
+  width: 40px;
+}
+main .table--main .interior__collapse {
+  font-size: 0.75rem;
+}
+main .table--main .interior__collapse .kitchen__topic {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dee2e6;
+}
+main .table--main .interior__collapse .kitchen__topic .topic__serial {
+  min-width: 90px;
+  text-align: center;
+  border-right: 0.5px solid #dee2e6;
+  line-height: 51px;
+}
+main .table--main .interior__collapse .kitchen__topic .topic__middle {
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .table--main .interior__collapse .kitchen__topic .topic__button {
+  width: 40px;
+}
+main .table--main .interior__collapse .kitchen__collapse {
+  white-space: nowrap;
+  overflow: auto;
+}
+main .table--main .interior__collapse .kitchen__collapse .table td {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  color: #667085;
+}
+main .table--main .interior__collapse .kitchen__collapse .table td span {
+  font-family: Inter-SemiBold;
+}
+main .table--main .interior__collapse .kitchen__collapse .table td button.buttonStyle {
+  font-family: Inter-SemiBold;
+  color: #FFC803;
+  background-color: #fff;
+  padding: 0.5rem;
+  border: 1px solid #FFC803;
+  border-radius: 8px;
+}
+main .table--main .interior__collapse .kitchen__collapse .table .flexElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .table--main .interior__collapse .kitchen__collapse .table .flexElement span {
+  width: fit-content;
+  background-color: rgba(193, 232, 89, 0.5);
+  padding: 2px 8px;
+  border-radius: 16px;
+}
+main .table--main .interior__collapse .kitchen__collapse .button__collapse {
+  border: 1px solid #dee2e6;
+  padding: 12px 0;
+  padding-left: 90px;
+}
+main .table--main .interior__collapse .kitchen__collapse .button__collapse button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .interior__collapse .kitchen__collapse .button__collapse button i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+main .table--main .interior__collapse .livingRoom1__topic {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dee2e6;
+}
+main .table--main .interior__collapse .livingRoom1__topic .topic__serial {
+  min-width: 90px;
+  text-align: center;
+  border-right: 0.5px solid #dee2e6;
+  line-height: 51px;
+}
+main .table--main .interior__collapse .livingRoom1__topic .topic__middle {
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .table--main .interior__collapse .livingRoom1__topic .topic__button {
+  width: 40px;
+}
+main .table--main .interior__collapse .livingRoom1__collapse {
+  white-space: nowrap;
+  overflow: auto;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .table td {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  color: #667085;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .table td span {
+  font-family: Inter-SemiBold;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .table td button.buttonStyle {
+  font-family: Inter-SemiBold;
+  color: #FFC803;
+  background-color: #fff;
+  padding: 0.5rem;
+  border: 1px solid #FFC803;
+  border-radius: 8px;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .table .flexElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .table .flexElement span {
+  width: fit-content;
+  background-color: rgba(193, 232, 89, 0.5);
+  padding: 2px 8px;
+  border-radius: 16px;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .button__collapse {
+  border: 1px solid #dee2e6;
+  padding: 12px 0;
+  padding-left: 90px;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .button__collapse button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .button__collapse button i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .popup {
+  position: relative;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .popup button {
+  border: none;
+  background-color: transparent;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .popup button:hover {
+  color: #FFC803;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .popup button.buttonStyle {
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .popup .popupForm {
+  position: absolute;
+  top: 20px;
+  left: -150px;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+  background-color: #FFB;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .popup .popupForm .popup__item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.25rem 1rem;
+  border-bottom: 0.5px solid #919191;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .popup .popupForm .popup__item:last-child {
+  border-bottom: none;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .popup .popupForm .popup__item i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 8px;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .popup .popupForm .popup__item i:hover {
+  color: #fff;
+  background-color: red;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .popup .popupForm .delete {
+  position: relative;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .popup .popupForm .delete .closePopup {
+  display: none;
+  position: absolute;
+  left: 4px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .popup .popupForm .delete .closePopup:hover {
+  background-color: #919191;
+}
+main .table--main .interior__collapse .livingRoom1__collapse .popup .popupForm:hover .closePopup {
+  display: block;
+}
+main .table--main .interior__collapse .livingRoom2__topic {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dee2e6;
+}
+main .table--main .interior__collapse .livingRoom2__topic .topic__serial {
+  min-width: 90px;
+  text-align: center;
+  border-right: 0.5px solid #dee2e6;
+  line-height: 51px;
+}
+main .table--main .interior__collapse .livingRoom2__topic .topic__middle {
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .table--main .interior__collapse .livingRoom2__topic .topic__button {
+  width: 40px;
+}
+main .table--main .interior__collapse .livingRoom2__collapse {
+  white-space: nowrap;
+  overflow: auto;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .table td {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  color: #667085;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .table td span {
+  font-family: Inter-SemiBold;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .table td button.buttonStyle {
+  font-family: Inter-SemiBold;
+  color: #FFC803;
+  background-color: #fff;
+  padding: 0.5rem;
+  border: 1px solid #FFC803;
+  border-radius: 8px;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .table .flexElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .table .flexElement span {
+  width: fit-content;
+  background-color: rgba(193, 232, 89, 0.5);
+  padding: 2px 8px;
+  border-radius: 16px;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .button__collapse {
+  border: 1px solid #dee2e6;
+  padding: 12px 0;
+  padding-left: 90px;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .button__collapse button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .button__collapse button i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .popup {
+  position: relative;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .popup button {
+  border: none;
+  background-color: transparent;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .popup button:hover {
+  color: #FFC803;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .popup button.buttonStyle {
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .popup .popupForm {
+  position: absolute;
+  top: 20px;
+  left: -150px;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+  background-color: #FFB;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .popup .popupForm .popup__item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.25rem 1rem;
+  border-bottom: 0.5px solid #919191;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .popup .popupForm .popup__item:last-child {
+  border-bottom: none;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .popup .popupForm .popup__item i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 8px;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .popup .popupForm .popup__item i:hover {
+  color: #fff;
+  background-color: red;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .popup .popupForm .delete {
+  position: relative;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .popup .popupForm .delete .closePopup {
+  display: none;
+  position: absolute;
+  left: 4px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .popup .popupForm .delete .closePopup:hover {
+  background-color: #919191;
+}
+main .table--main .interior__collapse .livingRoom2__collapse .popup .popupForm:hover .closePopup {
+  display: block;
+}
+main .table--main .interior__collapse .livingRoom3__topic {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dee2e6;
+}
+main .table--main .interior__collapse .livingRoom3__topic .topic__serial {
+  min-width: 90px;
+  text-align: center;
+  border-right: 0.5px solid #dee2e6;
+  line-height: 51px;
+}
+main .table--main .interior__collapse .livingRoom3__topic .topic__middle {
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .table--main .interior__collapse .livingRoom3__topic .topic__button {
+  width: 40px;
+}
+main .table--main .interior__collapse .livingRoom3__collapse {
+  white-space: nowrap;
+  overflow: auto;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .table td {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  color: #667085;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .table td span {
+  font-family: Inter-SemiBold;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .table td button.buttonStyle {
+  font-family: Inter-SemiBold;
+  color: #FFC803;
+  background-color: #fff;
+  padding: 0.5rem;
+  border: 1px solid #FFC803;
+  border-radius: 8px;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .table .flexElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .table .flexElement span {
+  width: fit-content;
+  background-color: rgba(193, 232, 89, 0.5);
+  padding: 2px 8px;
+  border-radius: 16px;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .button__collapse {
+  border: 1px solid #dee2e6;
+  padding: 12px 0;
+  padding-left: 90px;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .button__collapse button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .button__collapse button i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .popup {
+  position: relative;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .popup button {
+  border: none;
+  background-color: transparent;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .popup button:hover {
+  color: #FFC803;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .popup button.buttonStyle {
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .popup .popupForm {
+  position: absolute;
+  top: 20px;
+  left: -150px;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+  background-color: #FFB;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .popup .popupForm .popup__item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.25rem 1rem;
+  border-bottom: 0.5px solid #919191;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .popup .popupForm .popup__item:last-child {
+  border-bottom: none;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .popup .popupForm .popup__item i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 8px;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .popup .popupForm .popup__item i:hover {
+  color: #fff;
+  background-color: red;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .popup .popupForm .delete {
+  position: relative;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .popup .popupForm .delete .closePopup {
+  display: none;
+  position: absolute;
+  left: 4px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .popup .popupForm .delete .closePopup:hover {
+  background-color: #919191;
+}
+main .table--main .interior__collapse .livingRoom3__collapse .popup .popupForm:hover .closePopup {
+  display: block;
+}
+main .table--main .interiorRemove__topic {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dee2e6;
+}
+main .table--main .interiorRemove__topic .topic__serial {
+  min-width: 90px;
+  text-align: center;
+  border-right: 0.5px solid #dee2e6;
+  line-height: 51px;
+}
+main .table--main .interiorRemove__topic .topic__middle {
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .table--main .interiorRemove__topic .topic__button {
+  width: 40px;
+}
+main .table--main .interiorRemove__collapse {
+  font-size: 0.75rem;
+}
+main .table--main .interiorRemove__collapse .bed__topic {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dee2e6;
+}
+main .table--main .interiorRemove__collapse .bed__topic .topic__serial {
+  min-width: 90px;
+  text-align: center;
+  border-right: 0.5px solid #dee2e6;
+  line-height: 51px;
+}
+main .table--main .interiorRemove__collapse .bed__topic .topic__middle {
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .table--main .interiorRemove__collapse .bed__topic .topic__button {
+  width: 40px;
+}
+main .table--main .interiorRemove__collapse .bed__collapse {
+  white-space: nowrap;
+  overflow: auto;
+}
+main .table--main .interiorRemove__collapse .bed__collapse .table td {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  color: #667085;
+}
+main .table--main .interiorRemove__collapse .bed__collapse .table td span {
+  font-family: Inter-SemiBold;
+}
+main .table--main .interiorRemove__collapse .bed__collapse .table td button.buttonStyle {
+  font-family: Inter-SemiBold;
+  color: #FFC803;
+  background-color: #fff;
+  padding: 0.5rem;
+  border: 1px solid #FFC803;
+  border-radius: 8px;
+}
+main .table--main .interiorRemove__collapse .bed__collapse .table .flexElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .table--main .interiorRemove__collapse .bed__collapse .table .flexElement span {
+  width: fit-content;
+  background-color: rgba(193, 232, 89, 0.5);
+  padding: 2px 8px;
+  border-radius: 16px;
+}
+main .table--main .interiorRemove__collapse .bed__collapse .button__collapse {
+  border: 1px solid #dee2e6;
+  padding: 12px 0;
+  padding-left: 90px;
+}
+main .table--main .interiorRemove__collapse .bed__collapse .button__collapse button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .interiorRemove__collapse .bed__collapse .button__collapse button i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+main .table--main .interiorRemove__collapse .furniture__topic {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dee2e6;
+}
+main .table--main .interiorRemove__collapse .furniture__topic .topic__serial {
+  min-width: 90px;
+  text-align: center;
+  border-right: 0.5px solid #dee2e6;
+  line-height: 51px;
+}
+main .table--main .interiorRemove__collapse .furniture__topic .topic__middle {
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .table--main .interiorRemove__collapse .furniture__topic .topic__button {
+  width: 40px;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse {
+  white-space: nowrap;
+  overflow: auto;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .table td {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  color: #667085;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .table td span {
+  font-family: Inter-SemiBold;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .table td button.buttonStyle {
+  font-family: Inter-SemiBold;
+  color: #FFC803;
+  background-color: #fff;
+  padding: 0.5rem;
+  border: 1px solid #FFC803;
+  border-radius: 8px;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .table .flexElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .table .flexElement span {
+  width: fit-content;
+  background-color: rgba(193, 232, 89, 0.5);
+  padding: 2px 8px;
+  border-radius: 16px;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .button__collapse {
+  border: 1px solid #dee2e6;
+  padding: 12px 0;
+  padding-left: 90px;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .button__collapse button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .button__collapse button i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .popup {
+  position: relative;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .popup button {
+  border: none;
+  background-color: transparent;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .popup button:hover {
+  color: #FFC803;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .popup button.buttonStyle {
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .popup .popupForm {
+  position: absolute;
+  top: 20px;
+  left: -150px;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+  background-color: #FFB;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .popup .popupForm .popup__item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.25rem 1rem;
+  border-bottom: 0.5px solid #919191;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .popup .popupForm .popup__item:last-child {
+  border-bottom: none;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .popup .popupForm .popup__item i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 8px;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .popup .popupForm .popup__item i:hover {
+  color: #fff;
+  background-color: red;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .popup .popupForm .delete {
+  position: relative;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .popup .popupForm .delete .closePopup {
+  display: none;
+  position: absolute;
+  left: 4px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .popup .popupForm .delete .closePopup:hover {
+  background-color: #919191;
+}
+main .table--main .interiorRemove__collapse .furniture__collapse .popup .popupForm:hover .closePopup {
+  display: block;
+}
+main .table--main .interiorRemove__collapse .makeupTable__topic {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dee2e6;
+}
+main .table--main .interiorRemove__collapse .makeupTable__topic .topic__serial {
+  min-width: 90px;
+  text-align: center;
+  border-right: 0.5px solid #dee2e6;
+  line-height: 51px;
+}
+main .table--main .interiorRemove__collapse .makeupTable__topic .topic__middle {
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .table--main .interiorRemove__collapse .makeupTable__topic .topic__button {
+  width: 40px;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse {
+  white-space: nowrap;
+  overflow: auto;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .table td {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  color: #667085;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .table td span {
+  font-family: Inter-SemiBold;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .table td button.buttonStyle {
+  font-family: Inter-SemiBold;
+  color: #FFC803;
+  background-color: #fff;
+  padding: 0.5rem;
+  border: 1px solid #FFC803;
+  border-radius: 8px;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .table .flexElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .table .flexElement span {
+  width: fit-content;
+  background-color: rgba(193, 232, 89, 0.5);
+  padding: 2px 8px;
+  border-radius: 16px;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .button__collapse {
+  border: 1px solid #dee2e6;
+  padding: 12px 0;
+  padding-left: 90px;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .button__collapse button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .button__collapse button i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .popup {
+  position: relative;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .popup button {
+  border: none;
+  background-color: transparent;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .popup button:hover {
+  color: #FFC803;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .popup button.buttonStyle {
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .popup .popupForm {
+  position: absolute;
+  top: 20px;
+  left: -150px;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+  background-color: #FFB;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .popup .popupForm .popup__item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.25rem 1rem;
+  border-bottom: 0.5px solid #919191;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .popup .popupForm .popup__item:last-child {
+  border-bottom: none;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .popup .popupForm .popup__item i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 8px;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .popup .popupForm .popup__item i:hover {
+  color: #fff;
+  background-color: red;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .popup .popupForm .delete {
+  position: relative;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .popup .popupForm .delete .closePopup {
+  display: none;
+  position: absolute;
+  left: 4px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .popup .popupForm .delete .closePopup:hover {
+  background-color: #919191;
+}
+main .table--main .interiorRemove__collapse .makeupTable__collapse .popup .popupForm:hover .closePopup {
+  display: block;
+}
+main .table--main .refrigeration__topic {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dee2e6;
+}
+main .table--main .refrigeration__topic .topic__serial {
+  min-width: 90px;
+  text-align: center;
+  border-right: 0.5px solid #dee2e6;
+  line-height: 51px;
+}
+main .table--main .refrigeration__topic .topic__middle {
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .table--main .refrigeration__topic .topic__button {
+  width: 40px;
+}
+main .table--main .refrigeration__collapse {
+  font-size: 0.75rem;
+}
+main .table--main .refrigeration__collapse .airConditioner__topic {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dee2e6;
+}
+main .table--main .refrigeration__collapse .airConditioner__topic .topic__serial {
+  min-width: 90px;
+  text-align: center;
+  border-right: 0.5px solid #dee2e6;
+  line-height: 51px;
+}
+main .table--main .refrigeration__collapse .airConditioner__topic .topic__middle {
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .table--main .refrigeration__collapse .airConditioner__topic .topic__button {
+  width: 40px;
+}
+main .table--main .refrigeration__collapse .airConditioner__collapse {
+  white-space: nowrap;
+  overflow: auto;
+}
+main .table--main .refrigeration__collapse .airConditioner__collapse .table td {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  color: #667085;
+}
+main .table--main .refrigeration__collapse .airConditioner__collapse .table td span {
+  font-family: Inter-SemiBold;
+}
+main .table--main .refrigeration__collapse .airConditioner__collapse .table td button.buttonStyle {
+  font-family: Inter-SemiBold;
+  color: #FFC803;
+  background-color: #fff;
+  padding: 0.5rem;
+  border: 1px solid #FFC803;
+  border-radius: 8px;
+}
+main .table--main .refrigeration__collapse .airConditioner__collapse .table .flexElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .table--main .refrigeration__collapse .airConditioner__collapse .table .flexElement span {
+  width: fit-content;
+  background-color: rgba(193, 232, 89, 0.5);
+  padding: 2px 8px;
+  border-radius: 16px;
+}
+main .table--main .refrigeration__collapse .airConditioner__collapse .button__collapse {
+  border: 1px solid #dee2e6;
+  padding: 12px 0;
+  padding-left: 90px;
+}
+main .table--main .refrigeration__collapse .airConditioner__collapse .button__collapse button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .refrigeration__collapse .airConditioner__collapse .button__collapse button i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+main .table--main .refrigeration__collapse .fridge__topic {
+  height: 51px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #dee2e6;
+}
+main .table--main .refrigeration__collapse .fridge__topic .topic__serial {
+  min-width: 90px;
+  text-align: center;
+  border-right: 0.5px solid #dee2e6;
+  line-height: 51px;
+}
+main .table--main .refrigeration__collapse .fridge__topic .topic__middle {
+  width: 100%;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+main .table--main .refrigeration__collapse .fridge__topic .topic__button {
+  width: 40px;
+}
+main .table--main .refrigeration__collapse .fridge__collapse {
+  white-space: nowrap;
+  overflow: auto;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .table td {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  color: #667085;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .table td span {
+  font-family: Inter-SemiBold;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .table td button.buttonStyle {
+  font-family: Inter-SemiBold;
+  color: #FFC803;
+  background-color: #fff;
+  padding: 0.5rem;
+  border: 1px solid #FFC803;
+  border-radius: 8px;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .table .flexElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .table .flexElement span {
+  width: fit-content;
+  background-color: rgba(193, 232, 89, 0.5);
+  padding: 2px 8px;
+  border-radius: 16px;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .button__collapse {
+  border: 1px solid #dee2e6;
+  padding: 12px 0;
+  padding-left: 90px;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .button__collapse button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .button__collapse button i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .popup {
+  position: relative;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .popup button {
+  border: none;
+  background-color: transparent;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .popup button:hover {
+  color: #FFC803;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .popup button.buttonStyle {
+  padding: 0 12px;
+  border: 0.5px solid #FFC803;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #FFC803;
+  font-family: Inter-SemiBold;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .popup .popupForm {
+  position: absolute;
+  top: 20px;
+  left: -150px;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+  background-color: #FFB;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .popup .popupForm .popup__item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.25rem 1rem;
+  border-bottom: 0.5px solid #919191;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .popup .popupForm .popup__item:last-child {
+  border-bottom: none;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .popup .popupForm .popup__item i {
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 8px;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .popup .popupForm .popup__item i:hover {
+  color: #fff;
+  background-color: red;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .popup .popupForm .delete {
+  position: relative;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .popup .popupForm .delete .closePopup {
+  display: none;
+  position: absolute;
+  left: 4px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .popup .popupForm .delete .closePopup:hover {
+  background-color: #919191;
+}
+main .table--main .refrigeration__collapse .fridge__collapse .popup .popupForm:hover .closePopup {
+  display: block;
+}
+main .turtorial {
+  border: 0.5px solid #919191;
+}
+main .turtorial .turtorial__topic {
+  height: 44px;
+  padding: 0 1.25rem;
+  background-color: #F9FAFB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .turtorial .turtorial__topic .topic__text {
+  font-family: Inter-Bold;
+  line-height: 1.25rem;
+  letter-spacing: 0.5px;
+}
+main .turtorial .turtorial__topic button {
+  border: none;
+  background-color: transparent;
+}
+main .turtorial .turtorial__content {
+  padding: 0.5rem 1rem;
+}
+main .turtorial .turtorial__content .note {
+  font-family: Inter-Light;
+  color: #4A5672;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+main .turtorial .turtorial__content .item__topic {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #F9FAFB;
+  border-radius: 8px;
+}
+main .turtorial .turtorial__content .item__topic .topic__button i {
+  font-size: 1rem;
+}
+main .turtorial .turtorial__content .item__moreStyle {
+  width: 100%;
+  justify-content: space-between;
+}
+main .turtorial .turtorial__content .item__content {
+  margin-top: 0.5rem;
+  border: 0.5px solid;
+  border-radius: 8px;
+}
+main .turtorial .turtorial__content .item__content ul {
+  padding: 0.5rem 1.5rem;
+  margin: 0;
+}
+main .turtorial .turtorial__content button.moreTurtorial {
+  margin-top: 1rem;
+  padding: 8px 16px;
+  border: 0.5px solid #FFC803;
+  border-radius: 8px;
+  background-color: #fff;
+  font-family: Inter-SemiBold;
+  font-size: 14px;
+  color: #FFC803;
+  line-height: 1.25rem;
+  letter-spacing: 0.175px;
+}
+main .turtorial .turtorial__content button.moreTurtorial i {
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+main .submit {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+main .submit button {
+  padding: 8px 16px;
+  border: 0.5px solid #FFC803;
+  border-radius: 8px;
+  background-color: #fff;
+  font-family: Inter-SemiBold;
+  font-size: 14px;
+  color: #FFC803;
+  line-height: 1.25rem;
+  letter-spacing: 0.175px;
+  width: 300px;
+}
+main .submit button i {
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+}
+main .submit button:hover {
+  transition: 0.5s ease;
+  border: none;
+  color: #000;
+  background-color: #FFC803;
+}
+
+@media (max-width: 740px) {
+  html {
+    font-size: 12px;
+  }
+  main section {
+    margin-bottom: 16px;
+  }
+  main .breadcrumb {
+    display: none;
+  }
+  main .title {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main .title .title__text {
+    padding: 1rem;
+  }
+  main .title .title__text .text__name {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  main .title .title__button {
+    display: flex;
+    justify-content: space-around;
+  }
+  main .template .template__content .row {
+    padding: 1rem 0;
+    padding-bottom: 0;
+  }
+  main .template .template__content .row .template__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter-Light;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  main .template .template__content .row .template__item span {
+    font-family: Inter-SemiBold;
+  }
+  main .template .template__content .row .template__item .item__image img {
+    width: 150px;
+    height: 165px;
+  }
+  main .template .template__content .row .template__item .item__description {
+    width: 150px;
+    padding: 1rem;
+    border: 0.5px solid #919191;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  main .template .template__content .row .template__item .item__description .name {
+    display: flex;
+  }
+  main .template .template__content .row .template__item .item__description .name .text {
+    font-family: Inter-SemiBold;
+    font-size: 1rem;
+  }
+  main .template .template__content .row .template__item .item__description .around {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  main .template .template__content .row .template__item .item__description .around i {
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 1.25rem;
+  }
+  main .template .template__content .row .template__item .item__description .around .elementRelative {
+    color: #FFC803;
+  }
+  main .template .template__content .row .template__item .item__description .around span.number {
+    position: absolute;
+    color: #fff;
+    font-size: 11px;
+    line-height: 1rem;
+    padding: 0 0.25rem;
+    background-color: red;
+    border-radius: 50%;
+    top: -5px;
+    right: 35px;
+  }
+  main .template .template__content .row .template__item .item__description .button {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  main .template .template__content .row .template__item .item__description .button button {
+    width: 95px;
+    text-align: center;
+    font-family: Inter-SemiBold;
+    font-size: 0.75rem;
+    padding: 8px;
+    color: #FFC803;
+    background-color: #fff;
+    border: 0.5px solid #FFC803;
+    border-radius: 8px;
+  }
+  main .template .template__content .row .template__item .item__description .button button:hover {
+    border: none;
+    color: #000;
+    background-color: #FFC803;
+  }
+  main .overview .overview__content .row {
+    flex-wrap: nowrap;
+  }
+  main .overview .overview__content .row img {
+    width: 140px;
+    height: 200px;
+  }
+  main .overview .overview__content .row .content__description {
+    gap: 0;
+  }
+  main .overview .overview__content .row .content__description .step {
+    display: none;
+  }
+  main .overview .overview__content .row .content__description .description {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  main .overview .overview__content .row .content__description .author {
+    flex-direction: column;
+  }
+  main .table--main .table--header {
+    display: none;
+  }
+  main .submit {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=bang-khoi-luong.css.map */

@@ -1,0 +1,232 @@
+// New Contruction
+.newContruction, .library {
+    margin-top: 100px;
+    padding: 0px 80px;
+
+    .title {
+        font-family: Inter-Bold;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .portfolio {
+        margin-top: 40px;
+
+        .portfolio__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .item__content {
+                width: 237px;
+                padding: 12px 16px;
+                border: 1px solid #EAECF0;
+                border-top: none;
+
+                .content__name {
+                    display: flex;
+                    justify-content: space-between;
+                    
+                    p {
+                        font-family: Inter-Bold;
+                        line-height: 24px;
+                        letter-spacing: 0.5px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+
+                    img {
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+
+                .content__description {
+                    margin-top: 12px;
+
+                    .description__top {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        p {
+                            font-family: Inter-Light;
+                            font-size: 12px;
+                            line-height: 20px;
+                            letter-spacing: 0.5px;
+
+                            span {
+                                font-family: Inter-SemiBold;
+                                font-size: 14px;
+                                line-height: 22px;
+                            }
+                        }
+
+                        .icon {
+                            display: flex;
+
+                            .icon__item {
+                                position: relative;
+
+                                i {
+                                    width: 24px;
+                                    text-align: center;
+                                    line-height: 24px;
+                                }
+
+                                span {
+                                    position: absolute;
+                                    display: inline-block;
+                                    width: 16px;
+                                    text-align: center;
+                                    line-height: 16px;
+                                    background-color: red;
+                                    border-radius: 50%;
+                                    color: #fff;
+                                    font-size: 11px;
+                                    top: -5px;
+                                    right: -5px;
+                                }
+                            }  
+                        }
+                    }
+
+                    .description__middle {
+                        margin-top: 6px;
+
+                        p {
+                            font-family: Inter-Light;
+                            font-size: 12px;
+                            line-height: 20px;
+                            letter-spacing: 0.5px;
+
+                            span {
+                                font-family: Inter-SemiBold;
+                                font-size: 14px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+
+                    .description__bottom {
+                        margin-top: 6px;
+
+                        p {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            font-family: Inter-Light;
+                            font-size: 12px;
+                            line-height: 20px;
+                            letter-spacing: 0.5px;
+
+                            span {
+                                font-family: Inter-SemiBold;
+                                font-size: 14px;
+                                line-height: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .buttonMore {
+        margin-top: 24px;
+        text-align: center;
+
+        button {
+            padding: 8px 12px;
+            background-color: #FFC803;
+            border: none;
+            border-radius: 8px;
+            font-family: Inter-SemiBold;
+            font-size: 14px;
+            line-height: 22px;
+        }
+
+        span {
+            display: inline-block;
+            margin-left: 8px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    // New Contruction
+    .newContruction, .library {
+        margin-top: 20px;
+        padding: 0px 16px;
+
+        .title {
+            font-family: Inter-SemiBold;
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+        }
+
+        .portfolio {
+            margin-top: 12px;
+
+            .portfolio__item {
+                margin-top: 12px;
+
+                .item__image {
+                    display: inline-block;
+                    
+                    img {
+                        width: 165px;
+                        height: 160px;
+                        border-radius: 8px 8px 0px 0px;
+                    }
+                }
+
+                .item__content {
+                    width: 165px;
+                    padding: 8px;
+                    border-radius: 0px 0px 8px 8px;
+
+                    .content__name {
+                        height: 44px;
+                        text-overflow: ellipsis;
+                        
+                        p {
+                            font-family: Inter-SemiBold;
+                            font-size: 14px;
+                            line-height: 22px;
+                            letter-spacing: 0.175px;
+                        }
+                    }
+
+                    .content__description {
+                        margin-top: 4px;
+                        position: relative;
+
+                        .description__top {
+                            .icon {
+                                position: absolute;
+                                bottom: 0;
+                                right: 0;
+
+                                .icon__item {
+                                    span {
+                                        display: none;
+                                    }
+                                }
+                            }
+                        }
+
+                        .description__bottom {
+                            p {
+                                flex-direction: column;
+                                align-items: baseline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

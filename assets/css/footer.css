@@ -1,0 +1,217 @@
+footer .footer__content {
+  padding: 50px 80px;
+  background-color: #221700;
+}
+footer .footer__content .container-fluid .row .description {
+  padding: 0px;
+  padding-right: 20px;
+}
+footer .footer__content .container-fluid .row .description .description__logo {
+  width: 200px;
+  height: 67px;
+}
+footer .footer__content .container-fluid .row .description .description__text {
+  margin-top: 24px;
+  font-family: Inter-Light;
+  color: #fff;
+  line-height: 120%;
+}
+footer .footer__content .container-fluid .row .description .description__post {
+  margin-top: 24px;
+}
+footer .footer__content .container-fluid .row .description .description__post a {
+  font-family: Inter-Light;
+  color: #fff;
+  line-height: 120%;
+}
+footer .footer__content .container-fluid .row .description .description__blog {
+  margin-top: 15px;
+}
+footer .footer__content .container-fluid .row .description .description__blog a {
+  font-family: Inter-Light;
+  color: #fff;
+  line-height: 120%;
+}
+footer .footer__content .container-fluid .row .rule {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer__content .container-fluid .row .rule h3 {
+  font-family: Inter-Bold;
+  font-size: 16px;
+  line-height: 120%;
+  color: #fff;
+}
+footer .footer__content .container-fluid .row .rule a {
+  font-family: Inter-Light;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 16px;
+}
+footer .footer__content .container-fluid .row .rule a:first-of-type {
+  margin-top: 24px;
+}
+footer .footer__content .container-fluid .row .rule a:last-of-type {
+  margin-bottom: 0px;
+}
+footer .footer__content .container-fluid .row .contact {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer__content .container-fluid .row .contact h3 {
+  font-family: Inter-Bold;
+  font-size: 16px;
+  line-height: 120%;
+  color: #fff;
+}
+footer .footer__content .container-fluid .row .contact a {
+  font-family: Inter-Light;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 16px;
+}
+footer .footer__content .container-fluid .row .contact a:first-of-type {
+  margin-top: 24px;
+}
+footer .footer__content .container-fluid .row .contact a:last-of-type {
+  margin-bottom: 0px;
+}
+footer .footer__content .container-fluid .row .support {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer__content .container-fluid .row .support h3 {
+  font-family: Inter-Bold;
+  font-size: 16px;
+  line-height: 120%;
+  color: #fff;
+}
+footer .footer__content .container-fluid .row .support a {
+  font-family: Inter-Light;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 16px;
+}
+footer .footer__content .container-fluid .row .support a:first-of-type {
+  margin-top: 24px;
+}
+footer .footer__content .container-fluid .row .support a:last-of-type {
+  margin-bottom: 0px;
+}
+footer .footer__content .container-fluid .row .support a span {
+  font-family: Inter-SemiBold;
+  color: #2A26F8;
+}
+footer .footer__content .container-fluid .row .object {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer__content .container-fluid .row .object h3 {
+  font-family: Inter-Bold;
+  font-size: 16px;
+  line-height: 120%;
+  color: #fff;
+}
+footer .footer__content .container-fluid .row .object a {
+  font-family: Inter-Light;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 16px;
+}
+footer .footer__content .container-fluid .row .object a:first-of-type {
+  margin-top: 24px;
+}
+footer .footer__content .container-fluid .row .object a:last-of-type {
+  margin-bottom: 0px;
+}
+footer .footer__content .container-fluid .row .social {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer__content .container-fluid .row .social h3 {
+  font-family: Inter-Bold;
+  font-size: 16px;
+  line-height: 120%;
+  color: #fff;
+}
+footer .footer__content .container-fluid .row .social a {
+  font-family: Inter-Light;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 16px;
+}
+footer .footer__content .container-fluid .row .social a:first-of-type {
+  margin-top: 24px;
+}
+footer .footer__content .container-fluid .row .social a:last-of-type {
+  margin-bottom: 0px;
+}
+footer .footer__content .container-fluid .row .social .socialMedia {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer__description {
+  background-color: #000;
+  padding: 12px 80px;
+  display: flex;
+}
+footer .footer__description img {
+  width: 24px;
+  height: 24px;
+}
+footer .footer__description p {
+  margin: 0;
+  font-family: Inter-Light;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.175px;
+  color: #fff;
+}
+footer .footer__description p a {
+  font-family: Inter-Light;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  footer .footer__content {
+    padding: 16px;
+  }
+  footer .footer__description {
+    padding: 16px;
+  }
+  footer .footer__content .container-fluid .row .description .description__logo {
+    margin: auto;
+  }
+  footer .footer__content .container-fluid .row .description .description__text {
+    margin-top: 8px;
+  }
+  footer .footer__content .container-fluid .row .description .description__post {
+    margin-top: 8px;
+  }
+  footer .footer__content .container-fluid .row .description .description__blog {
+    margin-top: 8px;
+  }
+  footer .footer__content .container-fluid .row .rule {
+    margin-top: 20px;
+  }
+  footer .footer__content .container-fluid .row .contact {
+    margin-top: 20px;
+  }
+  footer .footer__content .container-fluid .row .support {
+    margin-top: 20px;
+  }
+  footer .footer__content .container-fluid .row .object {
+    margin-top: 20px;
+  }
+  footer .footer__content .container-fluid .row .social {
+    margin-top: 20px;
+  }
+  footer .footer__content .container-fluid .row .social h3 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,541 @@
+main {
+  max-width: 1280px;
+  margin: auto;
+  padding: 20px;
+  border: 0.5px solid #919191;
+  border-radius: 8px;
+}
+main section {
+  margin-bottom: 60px;
+}
+main .stepByStep {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.25rem;
+  align-items: center;
+  white-space: nowrap;
+  overflow: auto;
+}
+main .stepByStep .step {
+  padding: 0.25rem 0.5rem;
+  display: flex;
+}
+main .stepByStep .step .step__serial {
+  width: 1.25rem;
+  text-align: center;
+  font-family: Inter-SemiBold;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.175px;
+  color: #FFC803;
+  padding: 0 0.25rem;
+  background-color: #fff;
+  border: 0.5px solid #FFC803;
+  border-radius: 4px;
+}
+main .stepByStep .step .step__name {
+  margin-left: 0.5rem;
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  color: #919191;
+  line-height: 1.5rem;
+  letter-spacing: 0.175px;
+}
+main .stepByStep .step--active {
+  color: #000;
+  background-color: #FFC803;
+  border-radius: 8px;
+}
+main .stepByStep .step--active .step__serial {
+  color: #000;
+}
+main .stepByStep .step--active .step__name {
+  font-family: Inter-SemiBold;
+  color: #000;
+}
+main .template {
+  border: 0.5px solid #919191;
+}
+main .template .template__topic {
+  height: 44px;
+  padding: 0 1.25rem;
+  background-color: #F9FAFB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .template .template__topic .topic__text {
+  font-family: Inter-Bold;
+  line-height: 1.25rem;
+  letter-spacing: 0.5px;
+}
+main .template .template__topic button {
+  border: none;
+  background-color: transparent;
+}
+main .template .template__content .row {
+  padding: 2rem 0;
+}
+main .template .template__content .row .template__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+}
+main .template .template__content .row .template__item span {
+  font-family: Inter-SemiBold;
+}
+main .template .template__content .row .template__item .item__image img {
+  width: 230px;
+  height: 200px;
+}
+main .template .template__content .row .template__item .item__description {
+  width: 230px;
+  padding: 1rem;
+  border: 0.5px solid #919191;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+main .template .template__content .row .template__item .item__description .name {
+  display: flex;
+}
+main .template .template__content .row .template__item .item__description .name .text {
+  font-family: Inter-SemiBold;
+  font-size: 1rem;
+}
+main .template .template__content .row .template__item .item__description .around {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+main .template .template__content .row .template__item .item__description .around i {
+  width: 24px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 1.25rem;
+}
+main .template .template__content .row .template__item .item__description .around .elementRelative {
+  color: #FFC803;
+}
+main .template .template__content .row .template__item .item__description .around span.number {
+  position: absolute;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1rem;
+  padding: 0 0.25rem;
+  background-color: red;
+  border-radius: 50%;
+  top: -5px;
+  right: 35px;
+}
+main .template .template__content .row .template__item .item__description .button {
+  display: flex;
+  justify-content: space-evenly;
+}
+main .template .template__content .row .template__item .item__description .button button {
+  width: 95px;
+  text-align: center;
+  font-family: Inter-SemiBold;
+  font-size: 0.75rem;
+  padding: 8px;
+  color: #FFC803;
+  background-color: #fff;
+  border: 0.5px solid #FFC803;
+  border-radius: 8px;
+}
+main .template .template__content .row .template__item .item__description .button button:hover {
+  border: none;
+  color: #000;
+  background-color: #FFC803;
+}
+main .template .template__button {
+  text-align: center;
+}
+main .template .template__button button {
+  border: none;
+  background-color: #FFC803;
+  color: #fff;
+  padding: 8px 24px;
+  font-family: Inter-SemiBold;
+  font-size: 14px;
+  border-radius: 1rem;
+}
+main .contract {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main .contract h2.contract__title {
+  text-align: center;
+  font-family: Inter-SemiBold;
+  font-size: 2rem;
+}
+main .contract .contract__note {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+main .contract .contract__note button {
+  padding: 8px 16px;
+  border: 0.5px solid #FFC803;
+  border-radius: 8px;
+  background-color: #fff;
+  font-family: Inter-SemiBold;
+  font-size: 14px;
+  color: #FFC803;
+  line-height: 1.25rem;
+  letter-spacing: 0.175px;
+  min-width: 85px;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+main .contract .contract__note button i {
+  width: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+main .contract .contract__note button:hover {
+  background-color: #FFC803;
+  color: #000;
+  transition: 0.3s ease;
+}
+main .contract .fix__content {
+  font-family: Inter-Light;
+  font-size: 0.75rem;
+}
+main .contract .fix__content span {
+  font-family: Inter-SemiBold;
+}
+main .contract .fix__content .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+main .contract .fix__content .content .content__bottom {
+  display: flex;
+  gap: 0.75rem;
+}
+main .contract .fix__content .content .content__bottom span {
+  padding: 0.5rem;
+  border: 0.5px solid #919191;
+}
+main .contract .fix__content .option {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+main .contract .fix__content .option .option__top {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main .contract .fix__content .option .option__top span:first-child {
+  text-decoration: underline;
+}
+main .contract .fix__content .option .option__top span:last-child {
+  padding: 0.5rem;
+  border: 0.5px solid #919191;
+}
+main .contract .fix__content .option .option__middle {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+main .contract .fix__content .option .option__middle span:first-child {
+  color: #FFC803;
+}
+main .contract .fix__content .option .option__middle span:last-child {
+  padding: 0.5rem;
+  border: 0.5px solid #919191;
+}
+main .contract .fix__content .option .option__bottom {
+  display: flex;
+  gap: 1rem;
+}
+main .contract .fix__content .option .option__bottom button {
+  padding: 8px 16px;
+  border: 0.5px solid #FFC803;
+  border-radius: 8px;
+  background-color: #fff;
+  font-family: Inter-SemiBold;
+  font-size: 14px;
+  color: #FFC803;
+  line-height: 1.25rem;
+  letter-spacing: 0.175px;
+  font-size: 0.75rem;
+}
+main .contract .fix__content .option .option__bottom button i {
+  width: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+main .contract .fix__content .option .option__bottom button:hover {
+  background-color: #FFC803;
+  color: #000;
+  transition: 0.3s ease;
+}
+main .contract .contract__information {
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 0.5px solid #919191;
+}
+main .contract .contract__information span {
+  font-family: Inter-SemiBold;
+}
+main .contract .contract__information .logo__information .object {
+  text-align: center;
+}
+main .contract .contract__information .logo__information .name {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+}
+main .contract .contract__signature .row .signature__item {
+  padding: 0;
+  border: 0.5px solid #919191;
+}
+main .contract .contract__signature .row .signature__item .main {
+  padding: 0.75rem 0;
+  background-color: #F9FAFB;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+main .contract .contract__signature .row .signature__item .main .object {
+  font-family: Inter-SemiBold;
+}
+main .contract .contract__signature .row .signature__item .main input {
+  padding: 0.5rem;
+  border: 0.5px solid #919191;
+  width: 80%;
+  border-radius: 8px;
+}
+main .contract .contract__signature .row .signature__item .main input::placeholder {
+  text-align: center;
+  font-family: Inter-Light;
+}
+main .contract .contract__signature .row .signature__item .main .position {
+  font-family: Inter-SemiBold;
+}
+main .contract .contract__signature .row .signature__item .content {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+  align-items: center;
+}
+main .contract .contract__signature .row .signature__item .content .signature button {
+  border: none;
+  background-color: transparent;
+  color: #000;
+  font-family: Inter-Light;
+  font-style: italic;
+}
+main .contract .contract__signature .row .signature__item .content .name {
+  font-family: Inter-SemiBold;
+}
+main .contract .contract__signature .modal .modal-body {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter-Light;
+  font-style: italic;
+}
+main .contract .contract__signature .modal .modal-body i {
+  font-size: 2rem;
+  width: 4rem;
+  text-align: center;
+  line-height: 4rem;
+}
+main .contract .contract__signature .modal .modal-footer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+main .contract .contract__signature .modal .modal-footer button {
+  padding: 8px 16px;
+  border: 0.5px solid #FFC803;
+  border-radius: 8px;
+  background-color: #fff;
+  font-family: Inter-SemiBold;
+  font-size: 14px;
+  color: #FFC803;
+  line-height: 1.25rem;
+  letter-spacing: 0.175px;
+}
+main .contract .contract__signature .modal .modal-footer button i {
+  width: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+main .contract .contract__signature .modal .modal-footer button:hover {
+  background-color: #FFC803;
+  color: #000;
+  transition: 0.3s ease;
+}
+main .submit {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+main .submit button {
+  padding: 8px 16px;
+  border: 0.5px solid #FFC803;
+  border-radius: 8px;
+  background-color: #fff;
+  font-family: Inter-SemiBold;
+  font-size: 14px;
+  color: #FFC803;
+  line-height: 1.25rem;
+  letter-spacing: 0.175px;
+  width: 300px;
+}
+main .submit button i {
+  width: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+main .submit button:hover {
+  background-color: #FFC803;
+  color: #000;
+  transition: 0.3s ease;
+}
+main .submit button:hover {
+  transition: 0.5s ease;
+  border: none;
+  color: #000;
+  background-color: #FFC803;
+}
+
+@media (max-width: 740px) {
+  html {
+    font-size: 12px;
+  }
+  main {
+    border: none;
+  }
+  main section {
+    margin-bottom: 16px;
+  }
+  main .template .template__content .row {
+    padding: 1rem 0;
+    padding-bottom: 0;
+  }
+  main .template .template__content .row .template__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter-Light;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  main .template .template__content .row .template__item span {
+    font-family: Inter-SemiBold;
+  }
+  main .template .template__content .row .template__item .item__image img {
+    width: 150px;
+    height: 165px;
+  }
+  main .template .template__content .row .template__item .item__description {
+    width: 150px;
+    padding: 1rem;
+    border: 0.5px solid #919191;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  main .template .template__content .row .template__item .item__description .name {
+    display: flex;
+  }
+  main .template .template__content .row .template__item .item__description .name .text {
+    font-family: Inter-SemiBold;
+    font-size: 1rem;
+  }
+  main .template .template__content .row .template__item .item__description .around {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  main .template .template__content .row .template__item .item__description .around i {
+    width: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 1.25rem;
+  }
+  main .template .template__content .row .template__item .item__description .around .elementRelative {
+    color: #FFC803;
+  }
+  main .template .template__content .row .template__item .item__description .around span.number {
+    position: absolute;
+    color: #fff;
+    font-size: 11px;
+    line-height: 1rem;
+    padding: 0 0.25rem;
+    background-color: red;
+    border-radius: 50%;
+    top: -5px;
+    right: 35px;
+  }
+  main .template .template__content .row .template__item .item__description .button {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  main .template .template__content .row .template__item .item__description .button button {
+    width: 95px;
+    text-align: center;
+    font-family: Inter-SemiBold;
+    font-size: 0.75rem;
+    padding: 8px;
+    color: #FFC803;
+    background-color: #fff;
+    border: 0.5px solid #FFC803;
+    border-radius: 8px;
+  }
+  main .template .template__content .row .template__item .item__description .button button:hover {
+    border: none;
+    color: #000;
+    background-color: #FFC803;
+  }
+  main .contract .fix__content .row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  main .contract .contract__information {
+    margin-bottom: 1rem;
+  }
+  main .contract .contract__information .logo__information .name img.avatar {
+    width: 35px;
+    height: 35px;
+  }
+  main .contract .contract__information .logo__information .name img.avatarKeri {
+    width: 150px;
+    height: 50px;
+  }
+  main .contract .contract__signature {
+    margin-bottom: 1rem;
+  }
+  main .submit {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=ky-hop-dong.css.map */

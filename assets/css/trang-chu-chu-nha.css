@@ -1,0 +1,680 @@
+  main section {
+    padding: 0px 80px;
+  }
+  main .banner {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    width: auto;
+    max-width: 100%;
+    height: 370px;
+  }
+  main .operation {
+    margin-top: 100px;
+    padding: 0px;
+  }
+  main .operation .operation__banner {
+    padding: 40px 0px;
+    background-color: #FFC803;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .operation .operation__banner .banner__title h2 {
+    font-family: QuickSand-Regular;
+    font-size: 64px;
+    color: #33490B;
+    line-height: 72px;
+  }
+  main .operation .operation__banner .banner__portfolio {
+    margin-top: 40px;
+    max-width: 1280px;
+  }
+  main .operation .operation__banner .banner__portfolio .row .portfolio__item {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 12px;
+  }
+  main .operation .operation__banner .banner__portfolio .row .portfolio__item .icon {
+    width: 120px;
+    height: 120px;
+  }
+  main .operation .operation__banner .banner__portfolio .row .portfolio__item .title {
+    margin-top: 8px;
+    font-family: Inter-Bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #33490B;
+    text-align: center;
+  }
+  main .operation .operation__banner .banner__portfolio .row .portfolio__item .description {
+    margin-top: 16px;
+    letter-spacing: 0.5px;
+    color: #33490B;
+    line-height: 24px;
+    text-align: center;
+  }
+  main .operation .operation__button {
+    margin: auto;
+    margin-top: 24px;
+    width: 230px;
+  }
+  main .operation .operation__button button {
+    padding: 12px 56px;
+    background-color: #FFC803;
+    border: none;
+    border-radius: 79px;
+    font-family: Inter-SemiBold;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+  }
+  main .topTen {
+    margin-top: 100px;
+  }
+  main .topTen .topTen__title {
+    display: flex;
+  }
+  main .topTen .topTen__title h2 {
+    font-family: Inter-Bold;
+    font-size: 32px;
+    line-height: 40px;
+    margin: auto;
+  }
+  main .topTen .topTen__navbar {
+    margin-top: 24px;
+  }
+  main .topTen .topTen__navbar .row .nav__item {
+    text-align: center;
+    padding: 0px;
+  }
+  main .topTen .topTen__navbar .row .nav__item button {
+    border: 1px solid #000;
+    width: 100%;
+    padding: 12px 0px;
+    background-color: #fff;
+    font-family: Inter-SemiBold;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  main .topTen .topTen__navbar .row .nav__item:first-child button {
+    border-right: none;
+    border-radius: 6px 0px 0px 0px;
+  }
+  main .topTen .topTen__navbar .row .nav__item:last-child button {
+    border-left: none;
+    border-radius: 0px 6px 0px 0px;
+  }
+  main .topTen .topTen__navbar .row .nav__item--active button {
+    background-color: #4F6C00;
+    color: #fff;
+  }
+  main .topTen .topTen__portfolio .row {
+    padding: 0px 24px;
+    border: 1px solid #000;
+    border-top: none;
+    border-radius: 0px 0px 6px 6px;
+  }
+  main .topTen .topTen__portfolio .row .portfolio__item {
+    margin: 24px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .topTen .topTen__portfolio .row .portfolio__item .logo {
+    width: 80px;
+    height: 80px;
+  }
+  main .topTen .topTen__portfolio .row .portfolio__item .name {
+    margin-top: 12px;
+    font-family: Inter-SemiBold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+  main .styleDesign {
+    margin-top: 100px;
+  }
+  main .styleDesign .styleDesign__title {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .styleDesign .styleDesign__title .title__text h2 {
+    margin-bottom: 0px;
+    font-family: Inter-Bold;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  main .styleDesign .styleDesign__title .title__buttonMore button {
+    padding: 8px 12px;
+    background-color: #FFC803;
+    border: none;
+    border-radius: 8px;
+    font-family: Inter-SemiBold;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  main .styleDesign .styleDesign__title .title__buttonMore button span {
+    display: inline-block;
+    margin-left: 8px;
+  }
+  main .styleDesign .owl-carousel {
+    margin-top: 40px;
+  }
+
+  main .kindsOfHouse {
+    margin-top: 100px;
+  }
+  main .kindsOfHouse .kindsOfHouse__title {
+    font-family: Inter-Bold;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  main .kindsOfHouse .kindsOfHouse__portfolio .portfolio__item {
+    margin-top: 40px;
+    padding: 0;
+    display: inline-block;
+    border: 1px solid #B3B3B3;
+    border-radius: 8px;
+  }
+  main .kindsOfHouse .kindsOfHouse__portfolio .portfolio__item img {
+    border-radius: 8px 8px 0px 0px;
+  }
+  main .kindsOfHouse .kindsOfHouse__portfolio .portfolio__item .item__name {
+    margin-top: 11px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: Inter-Bold;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  main .supplies {
+    margin-top: 100px;
+  }
+  main .supplies .supplies__title {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .supplies .supplies__title .title__text {
+    font-family: Inter-Bold;
+    font-size: 32px;
+    line-height: 40px;
+  }
+  main .supplies .supplies__title .title__buttonMore button {
+    padding: 8px 12px;
+    background-color: #FFC803;
+    border: none;
+    border-radius: 8px;
+    font-family: Inter-SemiBold;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  main .supplies .supplies__title .title__buttonMore button span {
+    display: inline-block;
+    margin-left: 8px;
+  }
+  main .supplies .supplies__portfolio .portfolio__item {
+    margin-top: 40px;
+    padding: 0;
+    display: inline-block;
+    border: 1px solid #B3B3B3;
+    border-radius: 8px;
+  }
+  main .supplies .supplies__portfolio .portfolio__item img {
+    border-radius: 8px 8px 0px 0px;
+  }
+  main .supplies .supplies__portfolio .portfolio__item .item__name {
+    margin-top: 11px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: Inter-Bold;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  main .advise {
+    margin-top: 100px;
+  }
+  main .advise .advise__title {
+    text-align: center;
+  }
+  main .advise .advise__title h2 {
+    font-family: QuickSand-Regular;
+    font-size: 64px;
+    line-height: 72px;
+  }
+  main .advise .advise__content {
+    margin-top: 40px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 60px 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  main .advise .advise__content .content__left {
+    max-width: 330px;
+    max-height: 330px;
+  }
+  main .advise .advise__content .content__middle {
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .advise .advise__content .content__middle .description {
+    margin-top: 20px;
+    font-family: Inter-SemiBold;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  main .advise .advise__content .content__middle .description span {
+    color: #fff;
+    background-color: #33490B;
+    padding: 4px 8px;
+    border-radius: 8px;
+  }
+  main .advise .advise__content .content__middle .btn {
+    margin-top: 32px;
+  }
+  main .advise .advise__content .content__middle .btn button {
+    border: none;
+    font-family: Inter-SemiBold;
+    font-size: 14px;
+    letter-spacing: 0.175px;
+    line-height: 22px;
+    width: 250px;
+    background-color: #FFC803;
+    padding: 8px 24px;
+    border-radius: 40px;
+  }
+  main .advise .advise__content .content__middle .btn button i {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  main .advise .advise__content .or {
+    margin: 0px 13px;
+    display: flex;
+    align-items: center;
+    font-family: Inter-Regular;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  main .advise .advise__content .content__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .advise .advise__content .content__right .title {
+    font-family: Inter-Light;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  main .advise .advise__content .content__right .title span {
+    font-family: Inter-Bold;
+  }
+  main .advise .advise__content .content__right .btn {
+    margin-top: 8px;
+  }
+  main .advise .advise__content .content__right .btn button {
+    border: none;
+    font-family: Inter-SemiBold;
+    font-size: 14px;
+    letter-spacing: 0.175px;
+    line-height: 22px;
+    width: 250px;
+    background-color: #FFC803;
+    padding: 8px 24px;
+    border-radius: 40px;
+  }
+  main .advise .advise__content .content__right .btn button i {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  main .advise .advise__content .content__right .description {
+    margin-top: 30px;
+    font-family: Inter-SemiBold;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+  main .advise .advise__content .content__right .input {
+    margin-top: 13px;
+  }
+  main .advise .advise__content .content__right .input input {
+    width: 350px;
+    padding: 12px 0px;
+    text-align: center;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+  }
+  main .advise .advise__content .content__right .input input::placeholder {
+    font-family: Inter-Light;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #625B71;
+  }
+  main .advise .advise__content .content__right .button__send {
+    margin-top: 13px;
+  }
+  main .advise .advise__content .content__right .button__send button {
+    width: 350px;
+    padding: 12px 0px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #FFC803;
+    opacity: 0.38;
+    border-radius: 8px;
+    font-family: Inter-SemiBold;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFC803;
+  }
+  main .advise .advise__content .content__right .note {
+    margin-top: 20px;
+    font-family: Inter-SemiBold;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+  main .advise .advise__content .content__right .socialMedia {
+    margin-top: 8px;
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  main .advise .advise__content .content__right .socialMedia .social__item {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .finishedProduct {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+  main .finishedProduct .image {
+    background-image: url(../images/finished-product.png);
+    width: auto;
+    width: 100%;
+    height: 570px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* BREAK POINT */
+  /* Tablet Screen */
+  @media (min-width: 739px) and (max-width: 1024px) {
+    main section {
+      padding: 1.5rem;
+    }
+
+    main .banner {
+      max-height: 210px;
+      padding: 0px;
+    }
+
+    main .operation {
+      margin-top: 2rem;
+    }
+
+    main .topTen {
+      margin-top: 2rem;
+    }
+
+    main .styleDesign {
+      margin-top: 2rem;
+    }
+
+    main .kindsOfHouse {
+      margin-top: 2rem;
+    }
+
+    main .supplies {
+      margin-top: 2rem;
+    }
+
+    main .advise {
+      margin-top: 2rem;
+    }
+
+    main .advise .advise__title h2 {
+      font-family: QuickSand-Regular;
+      font-size: 28px;
+      line-height: 36px;
+    }
+    
+    main .advise .advise__content {
+      margin-top: 12px;
+      padding: 12px;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    main .advise .advise__content .content__middle {
+      margin: 0;
+    }
+
+    main .finishedProduct {
+      margin-top: 2rem;
+    }
+
+    main .finishedProduct .image {
+      background-image: url(../images/finished-product-mobile.png);
+      background-size: cover;
+      height: 900px;
+    }
+  }
+
+  /* Mobile Screen */
+  @media (max-width: 768px) {
+    main section {
+      padding: 16px;
+    }
+
+    main .banner {
+      max-height: 100px;
+      padding: 0px;
+    }
+    main .operation {
+      margin-top: 16px;
+    }
+    main .operation .operation__banner {
+      padding: 16px;
+    }
+    main .operation .operation__banner .banner__title h2 {
+      font-family: Inter-SemiBold;
+      font-size: 24px;
+      line-height: 32px;
+    }
+    main .operation .operation__banner .banner__portfolio {
+      margin-top: 16px;
+    }
+    main .operation .operation__banner .banner__portfolio .row .portfolio__item {
+      margin-bottom: 12px;
+    }
+    main .operation .operation__banner .banner__portfolio .row .portfolio__item .icon {
+      width: 60px;
+      height: 60px;
+    }
+    main .operation .operation__banner .banner__portfolio .row .portfolio__item .icon img {
+      width: 60px;
+      height: 60px;
+    }
+    main .operation .operation__banner .banner__portfolio .row .portfolio__item .title {
+      margin-top: 4px;
+      font-family: Inter-SemiBold;
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: 0.175px;
+    }
+    main .operation .operation__banner .banner__portfolio .row .portfolio__item .description {
+      margin-top: 8px;
+      font-family: Inter-Light;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 0.048px;
+    }
+    main .topTen {
+      margin-top: 20px;
+    }
+    main .topTen .topTen__navbar .row .nav__item button {
+      font-size: 16px;
+    }
+    main .topTen .topTen__portfolio .row .portfolio__item {
+      margin-top: 16px;
+    }
+    main .topTen .topTen__portfolio .row .portfolio__item .logo {
+      width: 60px;
+      height: 60px;
+    }
+    main .topTen .topTen__portfolio .row .portfolio__item .logo img {
+      width: 60px;
+      height: 60px;
+    }
+    main .topTen .topTen__portfolio .row .portfolio__item .name {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
+    }
+    main .styleDesign {
+      margin-top: 20px;
+    }
+    main .styleDesign .styleDesign__title {
+      align-items: center;
+    }
+    main .styleDesign .styleDesign__title .title__text h2 {
+      width: 225px;
+      font-family: Inter-SemiBold;
+      font-size: 20px;
+      line-height: 28px;
+    }
+    main .styleDesign .styleDesign__title .title__buttonMore button {
+      background-color: #fff;
+      padding: 0;
+      font-size: 14px;
+      color: #FFC803;
+      line-height: 22px;
+      letter-spacing: 0.175px;
+    }
+    main .styleDesign .owl-carousel {
+      margin-top: 16px;
+    }
+    main .kindsOfHouse {
+      margin-top: 16px;
+    }
+    main .kindsOfHouse .kindsOfHouse__title h2 {
+      font-family: Inter-SemiBold;
+      font-size: 20px;
+      line-height: 28px;
+    }
+    main .kindsOfHouse .kindsOfHouse__portfolio .row .portfolio__item {
+      margin-top: 10px;
+    }
+    main .kindsOfHouse .kindsOfHouse__portfolio .row .portfolio__item .item__image img {
+      width: 145px;
+      height: 145px;
+    }
+    main .kindsOfHouse .kindsOfHouse__portfolio .row .portfolio__item .item__name {
+      font-family: Inter-SemiBold;
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: 0.175px;
+    }
+    main .supplies {
+      margin-top: 20px;
+    }
+    main .supplies .supplies__title {
+      align-items: center;
+    }
+    main .supplies .supplies__title .title__text h2 {
+      width: 225px;
+      font-family: Inter-SemiBold;
+      font-size: 20px;
+      line-height: 28px;
+    }
+    main .supplies .supplies__title .title__buttonMore button {
+      background-color: #fff;
+      padding: 0;
+      font-size: 14px;
+      color: #FFC803;
+      line-height: 22px;
+      letter-spacing: 0.175px;
+    }
+    main .supplies .supplies__portfolio .row .portfolio__item {
+      margin-top: 10px;
+    }
+    main .supplies .supplies__portfolio .row .portfolio__item .item__image img {
+      width: 145px;
+      height: 145px;
+    }
+    main .supplies .supplies__portfolio .row .portfolio__item .item__name {
+      font-family: Inter-SemiBold;
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: 0.175px;
+    }
+    main .advise {
+      margin-top: 16px;
+      padding: 16px;
+    }
+    main .advise .advise__title h2 {
+      font-family: QuickSand-Regular;
+      font-size: 28px;
+      line-height: 36px;
+    }
+    main .advise .advise__content {
+      margin-top: 12px;
+      padding: 12px;
+      flex-direction: column;
+      align-items: center;
+    }
+    main .advise .advise__content .content__left img {
+      width: 150px;
+      height: 150px;
+    }
+    main .advise .advise__content .content__middle {
+      margin-left: 0;
+      margin-top: 16px;
+    }
+    main .advise .advise__content .content__middle .description {
+      margin-top: 16px;
+      font-size: 12px;
+    }
+    main .advise .advise__content .content__middle .description span {
+      font-size: 12px;
+    }
+    main .advise .advise__content .content__middle .btn {
+      margin-top: 8px;
+    }
+    main .advise .advise__content .or {
+      display: none;
+    }
+    main .advise .advise__content .content__right {
+      margin-top: 16px;
+    }
+    main .advise .advise__content .content__right .title {
+      font-size: 12px;
+    }
+    main .advise .advise__content .content__right .title span {
+      font-size: 12px;
+    }
+    main .advise .advise__content .content__right .btn button {
+      padding: 8px 12px;
+    }
+    main .advise .advise__content .content__right .description {
+      margin-top: 16px;
+      font-size: 12px;
+    }
+    main .finishedProduct {
+      margin-top: 16px;
+      padding: 0px;
+    }
+    main .finishedProduct .image {
+      background-image: url(../images/finished-product-mobile.png);
+      background-size: cover;
+      max-height: 450px;
+    }
+  }
+  
